@@ -321,26 +321,40 @@ function BackupSection() {
 
   const copy = async () => {
     const text = makeBackup(state, today);
+    setPasted(text);
     try {
       await navigator.clipboard.writeText(text);
-      setStatus({ tone: 'ok', text: 'Backup copied. Paste it somewhere safe — a note, an email to yourself.' });
+      setStatus({ tone: 'ok', text: 'Backup copied. Paste it somewhere safe — a note, or an email to yourself.' });
     } catch {
-      setPasted(text);
-      setStatus({ tone: 'warn', text: 'Could not reach the clipboard. The backup is in the box below — copy it from there.' });
+      setStatus({ tone: 'warn', text: 'This browser would not let the app reach the clipboard. Copy the backup out of the box below instead.' });
     }
   };
 
+  /**
+   * Some hosts block a page from saving a file — an embedded viewer, or a
+   * locked-down mobile browser — and they do it silently, so there is no way to
+   * confirm the file arrived. Always put the backup in the box as well, and say
+   * so, rather than reporting a success that may not have happened.
+   */
   const download = () => {
-    const blob = new Blob([makeBackup(state, today)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = backupFilename(today);
-    document.body.appendChild(link);
-    link.click();
-    link.remove();
-    URL.revokeObjectURL(url);
-    setStatus({ tone: 'ok', text: `Saved as ${backupFilename(today)}.` });
+    const text = makeBackup(state, today);
+    setPasted(text);
+    try {
+      const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = backupFilename(today);
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+    } catch {
+      // Fall through to the box, which is the reliable route.
+    }
+    setStatus({
+      tone: 'warn',
+      text: `If a file called ${backupFilename(today)} did not download, this browser blocks downloads — the backup is in the box below, so copy it from there.`,
+    });
   };
 
   const restore = (text) => {
@@ -398,17 +412,19 @@ function BackupSection() {
       {status && <p className={`notice notice--${status.tone}`}>{status.text}</p>}
 
       <label className="field">
-        <span className="field__label">Or paste a backup here to restore it</span>
+        <span className="field__label">
+          Backup text — copy this out to save it, or paste one in to restore
+        </span>
         <textarea
           className="backup-box"
           rows="4"
           value={pasted}
-          placeholder='{"app":"mathtrack", ...}'
+          placeholder='Press "Copy backup" to fill this, or paste a saved backup here.'
           onChange={(e) => setPasted(e.target.value)}
         />
       </label>
       <button className="btn btn--ghost" disabled={!pasted.trim()} onClick={() => restore(pasted)}>
-        Restore from pasted text
+        Restore from the text above
       </button>
     </section>
   );
