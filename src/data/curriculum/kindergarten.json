@@ -1,0 +1,1952 @@
+{
+  "trackId": "kindergarten",
+  "title": "Kindergarten — Number Sense Through Reasoning",
+  "gradeLabel": "Kindergarten",
+  "durationWeeks": 12,
+  "approach": "Concrete → Pictorial → Abstract (Singapore Math). Every week starts with real objects the child can move, becomes a drawing, and only then becomes a number sentence. Talk is the point: 'how do you know?' matters more than 'what is the answer?'",
+  "parentNote": "Sessions are meant to be 15-20 minutes, 4-5 days a week. Read the problems aloud. The child may answer by talking, drawing, or moving objects — writing is never required to get credit.",
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "How Many? Counting That Actually Means Something",
+      "bigIdea": "The last number you say when counting tells how many there are — and the amount does not change when you move the objects around.",
+      "instruction": {
+        "title": "Counting with one touch per object",
+        "minutes": 8,
+        "body": [
+          "Line up 6 small objects (blocks, coins, cereal). Touch each one exactly once as you count: 1, 2, 3, 4, 5, 6.",
+          "Say out loud: 'There are six.' The last number you said is the answer to 'how many'.",
+          "Now slide the objects into a pile. Ask: how many now? Count again to prove it is still six."
+        ],
+        "vocabulary": [
+          {
+            "term": "how many",
+            "meaning": "the amount in a group"
+          },
+          {
+            "term": "the same",
+            "meaning": "not more, not fewer — an equal amount"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Subitizing — seeing small amounts without counting",
+        "howToPractice": "Flash 1-4 objects under your hand for one second, then hide them. 'How many did you see?' Build up to instantly seeing 3 and 4."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "k-w01-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Count these buttons out loud, touching each one: 🔵 🔵 🔵 🔵 🔵 🔵 🔵. How many buttons are there? Say the number and then write it if you can.",
+          "answerKey": {
+            "answer": "7 buttons.",
+            "approaches": [
+              {
+                "name": "Touch and count",
+                "steps": [
+                  "Touch each button once, saying 1, 2, 3, 4, 5, 6, 7.",
+                  "The last number said is 7.",
+                  "Answer 'how many' with that last number: seven."
+                ]
+              },
+              {
+                "name": "See a group, count on",
+                "steps": [
+                  "See the first five as a group of 5 without counting.",
+                  "Count on from 5: 6, 7.",
+                  "Seven."
+                ]
+              }
+            ],
+            "lookFor": "One touch per button, no skipping or double-touching, and answering with the LAST number rather than restarting the count.",
+            "misconception": "Recounting from 1 when asked 'how many?' means the child does not yet know the last number is the answer. That is normal — keep asking, don't correct harshly."
+          }
+        },
+        {
+          "id": "k-w01-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Put 5 crackers in a straight line. Now spread them far apart. Does the line have more crackers now, fewer, or the same? How do you know?",
+          "materials": "5 crackers, coins, or blocks",
+          "answerKey": {
+            "answer": "The same — still 5.",
+            "approaches": [
+              {
+                "name": "Count to prove it",
+                "steps": [
+                  "Count the spread-out crackers: 1, 2, 3, 4, 5.",
+                  "Still five.",
+                  "Moving things apart does not make more."
+                ]
+              },
+              {
+                "name": "Reason without counting",
+                "steps": [
+                  "Nobody added a cracker and nobody took one away.",
+                  "If nothing came and nothing left, the amount cannot change."
+                ]
+              }
+            ],
+            "lookFor": "The second reasoning — 'we didn't add any' — is the goal. Counting to check is a fine first step.",
+            "misconception": "Saying 'more' because the line looks longer is the classic conservation error. Do not just tell them the answer: have them count both arrangements themselves."
+          }
+        },
+        {
+          "id": "k-w01-p3",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Here are some stars: ⭐⭐⭐ ⭐⭐⭐. Find out how many two different ways.",
+          "answerKey": {
+            "answer": "6 stars.",
+            "approaches": [
+              {
+                "name": "Way 1 — count them all",
+                "steps": [
+                  "Touch each star: 1, 2, 3, 4, 5, 6.",
+                  "Six stars."
+                ]
+              },
+              {
+                "name": "Way 2 — use the groups",
+                "steps": [
+                  "See a group of 3 and another group of 3.",
+                  "3 and 3 more.",
+                  "Count on from 3: 4, 5, 6. Six stars."
+                ]
+              },
+              {
+                "name": "Way 3 — doubles",
+                "steps": [
+                  "Notice both groups are the same size, 3 and 3.",
+                  "Double 3 is 6."
+                ]
+              }
+            ],
+            "lookFor": "Any two distinct methods. Counting-on from a group is a big step up from counting all — praise it loudly.",
+            "misconception": "If both 'ways' are just counting all over again, prompt: 'Can you use the two groups to help you instead of starting at one?'"
+          }
+        },
+        {
+          "id": "k-w01-p4",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "I have a secret pile of blocks. I counted them and said '1, 2, 3, 4, 5, 6, 7, 8.' How many blocks are in my pile? How did you figure that out without seeing them?",
+          "answerKey": {
+            "answer": "8 blocks.",
+            "approaches": [
+              {
+                "name": "Last number said",
+                "steps": [
+                  "The counting stopped at 8.",
+                  "The last number counted tells how many.",
+                  "So there are 8 blocks — you don't need to see them."
+                ]
+              }
+            ],
+            "lookFor": "Explaining that the LAST word of the count is the total. This is the whole point of the week.",
+            "misconception": "A child who cannot answer without seeing the objects is still counting as a chant, not as a measurement. Repeat with smaller counts (3, 4) until it clicks."
+          }
+        },
+        {
+          "id": "k-w01-p5",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Your grown-up will count 6 spoons but will cheat — they will touch one spoon twice. Watch carefully. What went wrong, and what should the answer really be?",
+          "materials": "6 spoons",
+          "answerKey": {
+            "answer": "The counter said 7, but there are really 6. The mistake was touching one spoon two times.",
+            "approaches": [
+              {
+                "name": "Spot the double-touch",
+                "steps": [
+                  "Watch which spoon gets touched twice.",
+                  "Each object gets exactly one number.",
+                  "Recount correctly, one touch each: 1-2-3-4-5-6. Six spoons."
+                ]
+              }
+            ],
+            "lookFor": "Naming the rule — 'you only get to count each one once' — not just noticing something felt wrong.",
+            "misconception": "Being the error-catcher is much harder than counting. If the child misses it, slow the cheat down dramatically and try again."
+          }
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "theme": "Number Bonds to 5 — Two Parts Make a Whole",
+      "bigIdea": "A number can be broken into parts, and the parts can be put back together to make the whole again.",
+      "instruction": {
+        "title": "Part, part, whole",
+        "minutes": 8,
+        "body": [
+          "Take 5 counters. Split them into two hands: maybe 2 in one hand, 3 in the other.",
+          "Say it: 'Two and three make five.' Put them back together to show the whole is still 5.",
+          "Draw it as a number bond: a circle with 5 in it, and two circles below holding 2 and 3."
+        ],
+        "vocabulary": [
+          {
+            "term": "part",
+            "meaning": "one piece of a group"
+          },
+          {
+            "term": "whole",
+            "meaning": "all of it together"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Number bonds — instantly knowing the partner",
+        "howToPractice": "Hide some of 5 counters under a cup. Show the rest. 'How many are hiding?' Play it fast, like a game."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "k-w02-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Here is a number bond with the whole 5 on top, one part is 4, and the other part is empty. What number goes in the empty part?",
+          "answerKey": {
+            "answer": "1.",
+            "approaches": [
+              {
+                "name": "Build it",
+                "steps": [
+                  "Count out 5 counters as the whole.",
+                  "Move 4 away as one part.",
+                  "Count what is left: 1. That is the missing part."
+                ]
+              }
+            ],
+            "lookFor": "Understanding that the top number is the whole and the bottom two are its pieces.",
+            "misconception": "Adding 5 + 4 = 9 means the child is reading the bond as an addition problem. Physically build it with counters instead of explaining."
+          }
+        },
+        {
+          "id": "k-w02-p2",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "You have 5 grapes to share between two plates. Find EVERY different way to split them. How many ways did you find?",
+          "materials": "5 grapes or counters, 2 plates",
+          "answerKey": {
+            "answer": "Six ways if you count the empty plate: 0 and 5, 1 and 4, 2 and 3, 3 and 2, 4 and 1, 5 and 0. Most children will find 0+5, 1+4, 2+3 and see that the others are the same pairs flipped around.",
+            "approaches": [
+              {
+                "name": "Move one at a time",
+                "steps": [
+                  "Start with all 5 on the left plate, 0 on the right.",
+                  "Move one grape across each time: 4 and 1, then 3 and 2, then 2 and 3, then 1 and 4, then 0 and 5.",
+                  "Moving one at a time makes sure no way is missed."
+                ]
+              },
+              {
+                "name": "Look for the pattern",
+                "steps": [
+                  "As one plate goes up by one, the other goes down by one.",
+                  "5-0, 4-1, 3-2, 2-3, 1-4, 0-5.",
+                  "The two numbers always add to 5."
+                ]
+              }
+            ],
+            "lookFor": "A SYSTEM — moving one grape at a time — rather than random guessing. That is the reasoning skill here, not the answer.",
+            "misconception": "Random splitting produces repeats and misses. Ask: 'How will you know when you've found them all?'"
+          }
+        },
+        {
+          "id": "k-w02-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "There are 5 birds. Some are on the fence and 2 flew into the tree. How many are on the fence? Tell how you know.",
+          "answerKey": {
+            "answer": "3 birds on the fence.",
+            "approaches": [
+              {
+                "name": "Draw it",
+                "steps": [
+                  "Draw 5 birds.",
+                  "Circle 2 for the tree.",
+                  "Count the uncircled ones: 3."
+                ]
+              },
+              {
+                "name": "Number bond",
+                "steps": [
+                  "Whole is 5, one part is 2.",
+                  "2 and 3 make 5.",
+                  "The missing part is 3."
+                ]
+              },
+              {
+                "name": "Count on",
+                "steps": [
+                  "Start at 2 and count up to 5: 3, 4, 5 — that is 3 counts.",
+                  "So 3 birds are on the fence."
+                ]
+              }
+            ],
+            "lookFor": "Any method that separates a known part from the whole. Fingers are a perfectly good tool here.",
+            "misconception": "Answering 7 means the child heard 'and' and added. Reread slowly: the 5 is ALL the birds, not a separate group."
+          }
+        },
+        {
+          "id": "k-w02-p4",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Show that 4 and 1 make 5 in two different ways — one with objects and one with a picture or your fingers.",
+          "answerKey": {
+            "answer": "4 + 1 = 5, shown two ways.",
+            "approaches": [
+              {
+                "name": "Objects",
+                "steps": [
+                  "Put 4 blocks in one group and 1 block in another.",
+                  "Push them together and count all: 5."
+                ]
+              },
+              {
+                "name": "Fingers",
+                "steps": [
+                  "Hold up 4 fingers on one hand.",
+                  "Add 1 more finger.",
+                  "That is a whole hand — 5."
+                ]
+              },
+              {
+                "name": "Drawing",
+                "steps": [
+                  "Draw 4 circles, then 1 more circle.",
+                  "Count them: 5."
+                ]
+              }
+            ],
+            "lookFor": "Recognizing that the different representations describe the SAME fact. Ask: 'Is your finger way telling us the same thing as your block way?'",
+            "misconception": "None common — this is a confidence-builder that quietly teaches representation-matching."
+          }
+        },
+        {
+          "id": "k-w02-p5",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Your grown-up says: '3 and 3 make 5.' Are they right? How can you prove it?",
+          "answerKey": {
+            "answer": "No — 3 and 3 make 6, not 5.",
+            "approaches": [
+              {
+                "name": "Build both",
+                "steps": [
+                  "Put out 3 counters and 3 more counters.",
+                  "Count them all: 6.",
+                  "6 is more than 5, so the statement is wrong."
+                ]
+              },
+              {
+                "name": "Use the known bond",
+                "steps": [
+                  "3 and 2 make 5.",
+                  "The second part here is 3, which is one MORE than 2.",
+                  "So the total is one more than 5, which is 6."
+                ]
+              }
+            ],
+            "lookFor": "Proving with objects instead of just saying 'no'. The second approach (comparing to a known bond) is advanced — celebrate it.",
+            "misconception": "Agreeing with the grown-up because grown-ups are right. Say clearly: 'Your job is to check me. I make mistakes on purpose.'"
+          }
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "theme": "Number Bonds to 10 — The Most Useful Facts in Math",
+      "bigIdea": "Pairs that make 10 are worth knowing by heart, because ten is how our whole number system is built.",
+      "instruction": {
+        "title": "Ten frames",
+        "minutes": 8,
+        "body": [
+          "Draw a ten frame: two rows of five boxes. Fill in 7 counters.",
+          "Ask: how many empty boxes? The frame makes the missing part visible — you can see 3 without counting one by one.",
+          "Say it: '7 and 3 make 10.'"
+        ],
+        "vocabulary": [
+          {
+            "term": "ten frame",
+            "meaning": "a picture of ten boxes that helps you see how far from ten you are"
+          },
+          {
+            "term": "make ten",
+            "meaning": "finding the partner that fills the frame"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Partner-to-ten recall",
+        "howToPractice": "Say a number 0-10; the child shouts the partner that makes 10. Aim for instant, no counting. Play in the car."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "k-w03-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "A ten frame has 6 counters in it. How many empty boxes are left?",
+          "answerKey": {
+            "answer": "4 empty boxes. 6 and 4 make 10.",
+            "approaches": [
+              {
+                "name": "See the rows",
+                "steps": [
+                  "The top row of 5 is full, so 5 counters are placed.",
+                  "One more counter sits in the bottom row, making 6.",
+                  "The bottom row has 5 boxes and 1 is used, so 4 are empty."
+                ]
+              }
+            ],
+            "lookFor": "Using the five-structure of the frame instead of counting empty boxes one at a time.",
+            "misconception": "Counting empties one by one is fine at first, but nudge toward 'the top row is full, so...'"
+          }
+        },
+        {
+          "id": "k-w03-p2",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Find all the pairs of numbers that make 10. Write or say them in order, starting with 0 and 10. What pattern do you notice?",
+          "answerKey": {
+            "answer": "0+10, 1+9, 2+8, 3+7, 4+6, 5+5, 6+4, 7+3, 8+2, 9+1, 10+0.",
+            "approaches": [
+              {
+                "name": "Ten frame slide",
+                "steps": [
+                  "Fill the frame with 10 counters.",
+                  "Take one out at a time and record what stays and what leaves."
+                ]
+              },
+              {
+                "name": "Pattern spotting",
+                "steps": [
+                  "Look down the first column: 0, 1, 2, 3, 4, 5 — going up by one.",
+                  "Look down the second: 10, 9, 8, 7, 6, 5 — going down by one.",
+                  "One part grows exactly as fast as the other shrinks, because the whole never changes."
+                ]
+              }
+            ],
+            "lookFor": "The explanation of WHY one column goes up as the other goes down. That is proportional reasoning in embryo.",
+            "misconception": "Listing pairs in random order hides the pattern. Insist on starting at 0 and stepping up."
+          }
+        },
+        {
+          "id": "k-w03-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "You have 8 stickers. How many more do you need to have 10? Show your thinking with a drawing.",
+          "answerKey": {
+            "answer": "2 more stickers.",
+            "approaches": [
+              {
+                "name": "Ten frame",
+                "steps": [
+                  "Draw a ten frame and shade 8.",
+                  "The empty boxes are the answer: 2."
+                ]
+              },
+              {
+                "name": "Count on",
+                "steps": [
+                  "Start at 8: 9, 10.",
+                  "That was 2 counts, so 2 more are needed."
+                ]
+              },
+              {
+                "name": "Known bond",
+                "steps": [
+                  "8 and 2 make 10 — recall it.",
+                  "So 2 more."
+                ]
+              }
+            ],
+            "lookFor": "Counting ON from 8 rather than starting over at 1.",
+            "misconception": "Answering 10 means the child heard 'how many to have' as 'how many total'. Rephrase: 'How many MORE do you still need?'"
+          }
+        },
+        {
+          "id": "k-w03-p4",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "There are 10 cookies. 4 are on the plate. The rest are in the jar. How many are in the jar? Solve it two different ways.",
+          "answerKey": {
+            "answer": "6 cookies in the jar.",
+            "approaches": [
+              {
+                "name": "Take away",
+                "steps": [
+                  "Start with the whole, 10.",
+                  "Remove the 4 on the plate.",
+                  "6 remain in the jar."
+                ]
+              },
+              {
+                "name": "Count up",
+                "steps": [
+                  "Start at 4 and count up to 10: 5, 6, 7, 8, 9, 10.",
+                  "That is 6 counts, so 6 cookies."
+                ]
+              },
+              {
+                "name": "Known bond",
+                "steps": [
+                  "4 and 6 make 10.",
+                  "So the jar holds 6."
+                ]
+              }
+            ],
+            "lookFor": "Realizing take-away and count-up give the same answer. Ask: 'Why did both ways give 6?'",
+            "misconception": "Some children treat 'take away' and 'count up' as different problems. Showing they agree is the real lesson."
+          }
+        },
+        {
+          "id": "k-w03-p5",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Sam says '9 and 1 make 10' so '1 and 9 must make 10 too.' Is Sam right? Why?",
+          "answerKey": {
+            "answer": "Yes, Sam is right.",
+            "approaches": [
+              {
+                "name": "Flip the groups",
+                "steps": [
+                  "Put 9 counters on the left and 1 on the right; push together — 10.",
+                  "Now swap the piles: 1 on the left, 9 on the right; push together — still 10.",
+                  "The order of the parts does not change the whole."
+                ]
+              }
+            ],
+            "lookFor": "Stating the general rule: swapping the parts doesn't change the total. This halves how many facts must be learned.",
+            "misconception": "Treating 9+1 and 1+9 as two unrelated facts to memorize. Point out explicitly that knowing one gives the other for free."
+          }
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "theme": "More, Fewer, or the Same? Comparing Without Counting",
+      "bigIdea": "You can compare two groups by matching them up one-to-one — you don't always need to count.",
+      "instruction": {
+        "title": "Matching to compare",
+        "minutes": 7,
+        "body": [
+          "Put out 6 forks and 4 spoons in two rows, lined up.",
+          "Match each fork to a spoon. Two forks have no partner, so there are MORE forks — 2 more.",
+          "Matching tells you which is bigger AND by how much."
+        ],
+        "vocabulary": [
+          {
+            "term": "more",
+            "meaning": "a bigger amount"
+          },
+          {
+            "term": "fewer",
+            "meaning": "a smaller amount"
+          },
+          {
+            "term": "equal",
+            "meaning": "exactly the same amount"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Estimate then check",
+        "howToPractice": "Grab a handful of counters. Guess how many before counting. Then count. Was the guess close? Guessing is allowed to be wrong — closeness is the skill."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "k-w04-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Row A: 🍎🍎🍎🍎🍎. Row B: 🍌🍌🍌. Which row has more, and how many more?",
+          "answerKey": {
+            "answer": "Row A has more — 2 more apples than bananas.",
+            "approaches": [
+              {
+                "name": "Match up",
+                "steps": [
+                  "Pair each banana with an apple: 3 pairs.",
+                  "2 apples have no partner.",
+                  "So Row A has 2 more."
+                ]
+              },
+              {
+                "name": "Count and compare",
+                "steps": [
+                  "Count A: 5. Count B: 3.",
+                  "5 is more than 3.",
+                  "5 and 3: the difference is 2."
+                ]
+              }
+            ],
+            "lookFor": "Answering BOTH parts — which is more, and by how much.",
+            "misconception": "Saying only 'apples' answers half the question. Always follow with 'how many more?'"
+          }
+        },
+        {
+          "id": "k-w04-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Two jars. The tall thin jar has 7 marbles. The short wide jar has 9 marbles. The short jar looks emptier. Which jar has more marbles? How do you know?",
+          "answerKey": {
+            "answer": "The short wide jar has more — 9 is more than 7.",
+            "approaches": [
+              {
+                "name": "Trust the count",
+                "steps": [
+                  "Count each jar: 7 and 9.",
+                  "9 comes after 7 when counting, so 9 is more.",
+                  "How full a jar LOOKS depends on the jar's shape, not the amount."
+                ]
+              }
+            ],
+            "lookFor": "Separating 'how it looks' from 'how many'. This is the same conservation idea as Week 1, in a harder disguise.",
+            "misconception": "Choosing the fuller-looking jar. Pour both jars into identical cups to settle it — don't just assert."
+          }
+        },
+        {
+          "id": "k-w04-p3",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Make two groups of blocks where one group has 3 more than the other. Now make a different pair of groups that still has a difference of 3. And one more. What stays the same in all of them?",
+          "answerKey": {
+            "answer": "Many answers: 3 and 0, 4 and 1, 5 and 2, 6 and 3, 10 and 7. In every one, the gap is 3.",
+            "approaches": [
+              {
+                "name": "Build up together",
+                "steps": [
+                  "Start with 4 and 1 — the gap is 3.",
+                  "Add one block to BOTH groups: 5 and 2. The gap is still 3.",
+                  "Adding the same to both keeps the difference the same."
+                ]
+              }
+            ],
+            "lookFor": "The discovery that adding equally to both groups leaves the gap untouched. This is the seed of algebraic balance.",
+            "misconception": "Adding to only one group and expecting the gap to hold. Have them re-match and see the gap grow."
+          }
+        },
+        {
+          "id": "k-w04-p4",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Ana has 8 shells. Ben has 5 shells. How many more shells does Ana have? Show it two ways: with a matching picture, and by counting up.",
+          "answerKey": {
+            "answer": "3 more shells.",
+            "approaches": [
+              {
+                "name": "Matching picture",
+                "steps": [
+                  "Draw 8 shells in a row and 5 below, lined up.",
+                  "5 pairs match.",
+                  "3 of Ana's shells have no partner — that is the difference."
+                ]
+              },
+              {
+                "name": "Count up",
+                "steps": [
+                  "Start at 5 and count to 8: 6, 7, 8.",
+                  "That is 3 counts, so Ana has 3 more."
+                ]
+              }
+            ],
+            "lookFor": "Seeing that the unmatched shells in the drawing are exactly the counts in the count-up. Same 3, two views.",
+            "misconception": "Answering 13 (adding instead of comparing). Ask: 'Are we putting the shells together, or seeing who has extra?'"
+          }
+        },
+        {
+          "id": "k-w04-p5",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Guess how many buttons are in this handful before counting. Then count them. Was your guess more than, fewer than, or the same as the real number? By how much were you off?",
+          "materials": "A handful of buttons, beans, or coins (put out 12-15)",
+          "answerKey": {
+            "answer": "Depends on the handful. The point is comparing the guess to the count.",
+            "approaches": [
+              {
+                "name": "Estimate then check",
+                "steps": [
+                  "Look and guess a number — say 10.",
+                  "Count carefully: say it is 13.",
+                  "Compare: 10 is fewer than 13, off by 3."
+                ]
+              },
+              {
+                "name": "Anchor the guess",
+                "steps": [
+                  "Look at a known group of 5 first.",
+                  "Ask 'does this pile look like two of those? three?'",
+                  "Guess from the anchor instead of picking a random number."
+                ]
+              }
+            ],
+            "lookFor": "A guess that is reasonable (in the right neighborhood), and honest comparison afterward. Wrong guesses are the point.",
+            "misconception": "Guessing a wild number like 100, or refusing to guess for fear of being wrong. Praise close guesses, never correct ones."
+          }
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "theme": "The Number Line — One More, One Less",
+      "bigIdea": "Numbers live in an order. Moving one step right is one more; one step left is one less.",
+      "instruction": {
+        "title": "Walking the number line",
+        "minutes": 8,
+        "body": [
+          "Tape a number line 0-10 on the floor, or draw one on paper.",
+          "Stand on 4. Step right: you are on 5 — that is one MORE. Step left twice: you are on 3 — that is one less than 4.",
+          "Every number has a neighbor before it and after it."
+        ],
+        "vocabulary": [
+          {
+            "term": "one more",
+            "meaning": "the next number when counting up"
+          },
+          {
+            "term": "one less",
+            "meaning": "the number just before"
+          },
+          {
+            "term": "between",
+            "meaning": "in the middle of two numbers"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "One-more / one-less without counting from 1",
+        "howToPractice": "Call out a number; child instantly says one more, then one less. Speed matters more than perfection."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "k-w05-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Fill in the missing numbers: 3, 4, __, 6, __, 8. What number is one less than 6? What number is between 6 and 8?",
+          "answerKey": {
+            "answer": "Missing: 5 and 7. One less than 6 is 5. Between 6 and 8 is 7.",
+            "approaches": [
+              {
+                "name": "Count along the line",
+                "steps": [
+                  "Say the sequence: 3, 4, 5, 6, 7, 8.",
+                  "The gap after 4 is 5; the gap after 6 is 7."
+                ]
+              }
+            ],
+            "lookFor": "Answering 'one less than 6' without recounting from 1.",
+            "misconception": "Counting from 1 every time is slow but not wrong yet — the goal this week is to stop needing it."
+          }
+        },
+        {
+          "id": "k-w05-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "You are standing on 7 on the number line. You take 2 steps toward the smaller numbers. Where do you land? Explain your steps.",
+          "answerKey": {
+            "answer": "5.",
+            "approaches": [
+              {
+                "name": "Step and say",
+                "steps": [
+                  "From 7, one step left lands on 6.",
+                  "Another step left lands on 5.",
+                  "Two steps back from 7 is 5."
+                ]
+              },
+              {
+                "name": "Known bond",
+                "steps": [
+                  "7 take away 2.",
+                  "5 and 2 make 7, so taking 2 leaves 5."
+                ]
+              }
+            ],
+            "lookFor": "Tracking each step out loud instead of guessing. Connecting to a number bond is the advanced move.",
+            "misconception": "Counting the starting number 7 as the first step, landing on 6. Emphasize: you MOVE, then count the landing."
+          }
+        },
+        {
+          "id": "k-w05-p3",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "I am thinking of a number. It is one more than 5 and one less than 7. What is my number? Now make up your own riddle like this for your grown-up.",
+          "answerKey": {
+            "answer": "6. Child-created riddles vary — e.g. 'one more than 8 and one less than 10' → 9.",
+            "approaches": [
+              {
+                "name": "Check both clues",
+                "steps": [
+                  "One more than 5 is 6.",
+                  "Check the second clue: is 6 one less than 7? Yes.",
+                  "Both clues agree, so the answer is 6."
+                ]
+              }
+            ],
+            "lookFor": "CHECKING the second clue rather than stopping after the first. Also: does their invented riddle actually have an answer?",
+            "misconception": "Inventing an impossible riddle ('one more than 5 and one less than 9'). That is a great teaching moment — have them test it on the number line."
+          }
+        },
+        {
+          "id": "k-w05-p4",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Which is bigger, 8 or 6? Show it two ways: on the number line, and with counters.",
+          "answerKey": {
+            "answer": "8 is bigger.",
+            "approaches": [
+              {
+                "name": "Number line",
+                "steps": [
+                  "Find 6 and 8 on the line.",
+                  "8 is farther to the right.",
+                  "Numbers get bigger as you go right."
+                ]
+              },
+              {
+                "name": "Counters",
+                "steps": [
+                  "Build 8 counters and 6 counters in matched rows.",
+                  "Two counters in the 8-row have no partner.",
+                  "So 8 is bigger, by 2."
+                ]
+              }
+            ],
+            "lookFor": "The connection: the 2 extra counters equal the 2 steps of distance on the line.",
+            "misconception": "Believing bigger numbers must have longer names or look bigger. Stick to position and matching."
+          }
+        },
+        {
+          "id": "k-w05-p5",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "A frog starts on 3 and hops to 6. Then it hops back 1. Where is the frog? Draw the whole journey.",
+          "answerKey": {
+            "answer": "The frog is on 5.",
+            "approaches": [
+              {
+                "name": "Draw the hops",
+                "steps": [
+                  "Draw a number line 0-10.",
+                  "Arc from 3 to 6 — that is 3 hops forward.",
+                  "Arc back one from 6 to 5.",
+                  "The frog ends on 5."
+                ]
+              },
+              {
+                "name": "Combine the moves",
+                "steps": [
+                  "Forward 3, back 1, is the same as forward 2 overall.",
+                  "3 and 2 more is 5."
+                ]
+              }
+            ],
+            "lookFor": "The second approach — combining moves before doing them — is genuinely sophisticated. Do not expect it, but name it if it appears.",
+            "misconception": "Losing track mid-journey. Have them physically walk it if the drawing gets muddled."
+          }
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "theme": "Cumulative Review 1 + Patterns",
+      "bigIdea": "Patterns are rules you can describe — and once you know the rule, you can predict what comes next.",
+      "instruction": {
+        "title": "Review week — no new theory",
+        "minutes": 5,
+        "body": [
+          "This week mixes everything from Weeks 1-5 and adds pattern thinking.",
+          "Before starting, ask your child: 'What was the most interesting thing you learned about numbers so far?' Their answer tells you what stuck."
+        ],
+        "vocabulary": [
+          {
+            "term": "pattern",
+            "meaning": "something that repeats or grows by a rule"
+          },
+          {
+            "term": "rule",
+            "meaning": "the thing that tells you what comes next"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Mixed retrieval",
+        "howToPractice": "Rapid-fire mix: partners to 5, partners to 10, one more, one less. Change the type every question so the child must choose the strategy."
+      },
+      "cumulativeReview": true,
+      "problems": [
+        {
+          "id": "k-w06-p1",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Here is a pattern: 🔴🔵🔴🔵🔴__. What comes next? What is the rule? Now make a pattern that uses THREE colors before it repeats.",
+          "answerKey": {
+            "answer": "Blue comes next. The rule is red-blue repeating (an AB pattern). Child patterns vary — an ABC pattern such as red-blue-green repeating.",
+            "approaches": [
+              {
+                "name": "Say the rule out loud",
+                "steps": [
+                  "Read the pattern aloud: red, blue, red, blue, red...",
+                  "The unit that repeats is 'red blue'.",
+                  "After red comes blue."
+                ]
+              }
+            ],
+            "lookFor": "Naming the repeating UNIT, not just the next item. 'It goes red blue, red blue' is the target language.",
+            "misconception": "Continuing a pattern correctly but being unable to say the rule. Push for the rule — that is the transferable skill."
+          }
+        },
+        {
+          "id": "k-w06-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "A growing pattern: 1 block, then 2 blocks, then 3 blocks, then __. How many blocks in the next tower? How many in the one after that? How did you know?",
+          "answerKey": {
+            "answer": "4, then 5.",
+            "approaches": [
+              {
+                "name": "Find the change",
+                "steps": [
+                  "Compare each tower to the one before: 1 to 2 is one more; 2 to 3 is one more.",
+                  "The rule is 'add one each time'.",
+                  "So next is 4, then 5."
+                ]
+              }
+            ],
+            "lookFor": "Describing the CHANGE ('one more each time') rather than reciting the counting sequence by habit.",
+            "misconception": "Assuming every pattern repeats. Growing patterns don't repeat — they change by a rule. Contrast the two directly."
+          }
+        },
+        {
+          "id": "k-w06-p3",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "There are 10 fish. 6 are orange and the rest are blue. How many are blue? Solve it two different ways and check that both ways agree.",
+          "answerKey": {
+            "answer": "4 blue fish.",
+            "approaches": [
+              {
+                "name": "Number bond",
+                "steps": [
+                  "Whole 10, part 6.",
+                  "6 and 4 make 10.",
+                  "So 4 blue."
+                ]
+              },
+              {
+                "name": "Ten frame",
+                "steps": [
+                  "Shade 6 boxes of a ten frame orange.",
+                  "Count the unshaded: 4."
+                ]
+              },
+              {
+                "name": "Count up",
+                "steps": [
+                  "From 6 count to 10: 7, 8, 9, 10 — four counts.",
+                  "4 blue fish."
+                ]
+              }
+            ],
+            "lookFor": "Explicitly checking that the two methods agree. That habit — verify by a second route — is worth more than the answer.",
+            "misconception": "Doing one method twice with different words. Ask: 'Is that really a different way, or the same way said twice?'"
+          }
+        },
+        {
+          "id": "k-w06-p4",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Maya counted her toy cars and got 8. Then she lined them up differently and counted again and got 9. What probably happened?",
+          "answerKey": {
+            "answer": "She made a counting mistake one of the times — most likely she counted one car twice, or skipped one. Rearranging cars cannot change how many there are.",
+            "approaches": [
+              {
+                "name": "Reason from conservation",
+                "steps": [
+                  "No cars were added and none taken away.",
+                  "So the real amount did not change.",
+                  "Therefore one of her counts was wrong — she should recount carefully, touching each car once."
+                ]
+              }
+            ],
+            "lookFor": "Combining Week 1 (one touch per object) with conservation. Saying 'moving them doesn't change how many' is exactly right.",
+            "misconception": "Accepting that both counts could be right. Rebuild the situation with real objects if needed."
+          }
+        },
+        {
+          "id": "k-w06-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Use exactly 7 counters. Make a picture, a story, and a number bond that all show 7. Tell your grown-up how all three show the same thing.",
+          "answerKey": {
+            "answer": "Open-ended. Example: a drawing of 7 balloons; a story like '5 balloons and 2 more balloons came'; a number bond of 5 and 2 under a whole of 7.",
+            "approaches": [
+              {
+                "name": "One number, three faces",
+                "steps": [
+                  "Build 7 with counters (concrete).",
+                  "Draw the same 7 (pictorial).",
+                  "Write the bond 5 and 2 make 7 (abstract).",
+                  "Explain that the balloons, the drawing, and the bond all describe one amount: seven."
+                ]
+              }
+            ],
+            "lookFor": "The explanation tying the three together. This is the Concrete-Pictorial-Abstract chain in the child's own words — the single best sign the term is working.",
+            "misconception": "Producing three unrelated things. Prompt: 'Does your story match your bond? Show me where the 5 is in your picture.'"
+          }
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "theme": "Shapes: What Makes a Shape That Shape?",
+      "bigIdea": "Shapes are sorted by their attributes — sides and corners — not by how big they are or which way they are turned.",
+      "instruction": {
+        "title": "Sides and corners",
+        "minutes": 9,
+        "body": [
+          "Trace a triangle with your finger. Count the sides: 3. Count the corners: 3.",
+          "Do the same for a square (4 and 4) and a circle (no straight sides, no corners).",
+          "Now turn the triangle upside down. It is STILL a triangle — turning does not change what a shape is."
+        ],
+        "vocabulary": [
+          {
+            "term": "side",
+            "meaning": "a straight edge of a shape"
+          },
+          {
+            "term": "corner (vertex)",
+            "meaning": "where two sides meet"
+          },
+          {
+            "term": "attribute",
+            "meaning": "something true about a shape, like how many sides it has"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Counting in a circle without losing your place",
+        "howToPractice": "Count the sides of shapes by marking a starting corner with a fingertip so you know where to stop."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "k-w07-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "How many sides and how many corners does a square have? What about a triangle?",
+          "answerKey": {
+            "answer": "Square: 4 sides, 4 corners. Triangle: 3 sides, 3 corners.",
+            "approaches": [
+              {
+                "name": "Trace and count",
+                "steps": [
+                  "Put a finger on one corner as a starting mark.",
+                  "Trace around, counting each straight side.",
+                  "Stop when you return to the starting mark."
+                ]
+              }
+            ],
+            "lookFor": "Noticing that sides and corners come out the same number for these shapes.",
+            "misconception": "Losing the starting point and counting a side twice. Marking the start with a finger fixes it."
+          }
+        },
+        {
+          "id": "k-w07-p2",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Which of these is NOT a triangle, and why? (a) a tall skinny 3-sided shape (b) an upside-down 3-sided shape (c) a 4-sided shape",
+          "answerKey": {
+            "answer": "(c) — it has 4 sides, so it cannot be a triangle.",
+            "approaches": [
+              {
+                "name": "Test the rule",
+                "steps": [
+                  "The rule for a triangle is: exactly 3 straight sides.",
+                  "Check (a): 3 sides — triangle. Check (b): 3 sides, just rotated — still a triangle.",
+                  "Check (c): 4 sides — fails the rule."
+                ]
+              }
+            ],
+            "lookFor": "Applying the side-count rule rather than judging by how 'triangle-ish' something looks.",
+            "misconception": "Rejecting the upside-down or skinny triangle. Many children only accept the equilateral 'textbook' triangle. Rotate a paper triangle in front of them."
+          }
+        },
+        {
+          "id": "k-w07-p3",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Sort these objects into two groups your own way: a plate, a book, a slice of pizza, a window, a coin, a party hat. What was your sorting rule? Now sort them a DIFFERENT way.",
+          "answerKey": {
+            "answer": "Many valid answers. Common rules: round vs. has-corners (plate/coin vs. book/window/pizza/hat); 3 sides vs. 4 sides; things you eat from vs. things you don't.",
+            "approaches": [
+              {
+                "name": "Sort then name the rule",
+                "steps": [
+                  "Make two piles by feel.",
+                  "Ask 'what is true about everything in this pile?'",
+                  "State the rule: 'these are all round'."
+                ]
+              },
+              {
+                "name": "Re-sort by a new attribute",
+                "steps": [
+                  "Pick a different attribute — number of corners instead of roundness.",
+                  "Re-sort: pizza and hat (3 corners-ish) vs. book and window (4 corners)."
+                ]
+              }
+            ],
+            "lookFor": "Two genuinely different rules, and the ability to STATE each rule. Same objects, different classification — that flexibility is the goal.",
+            "misconception": "Sorting by color or size and calling it a shape rule. Both are legitimate sorts — just make sure the child names which attribute they used."
+          }
+        },
+        {
+          "id": "k-w07-p4",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Your grown-up says: 'This shape is big, so it must be a square.' Is that good reasoning? Why or why not?",
+          "answerKey": {
+            "answer": "No. Size has nothing to do with what shape something is. A shape is a square because it has 4 equal straight sides and 4 corners — big or small.",
+            "approaches": [
+              {
+                "name": "Counterexample",
+                "steps": [
+                  "Find a big circle and a tiny square.",
+                  "The big one is not a square; the tiny one is.",
+                  "So 'big' does not predict 'square'."
+                ]
+              }
+            ],
+            "lookFor": "Producing a COUNTEREXAMPLE — one object that breaks the claim. That is real mathematical argument at age five.",
+            "misconception": "Agreeing because it sounds confident. Reinforce that the child's job is to test claims."
+          }
+        },
+        {
+          "id": "k-w07-p5",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Make a bigger triangle out of smaller shapes two different ways. What did you use each time?",
+          "materials": "Pattern blocks, paper cut-outs, or drawn shapes",
+          "answerKey": {
+            "answer": "Open-ended. Example: four small triangles arranged into one large triangle; or a triangle plus a smaller triangle and a square-ish piece.",
+            "approaches": [
+              {
+                "name": "Compose from copies",
+                "steps": [
+                  "Take 4 identical small triangles.",
+                  "Place three in a row and one flipped in the middle gap.",
+                  "The result is one bigger triangle."
+                ]
+              },
+              {
+                "name": "Mix shape types",
+                "steps": [
+                  "Use two triangles and a rectangle to build a house-like triangle top.",
+                  "Check the outline: still 3 straight sides."
+                ]
+              }
+            ],
+            "lookFor": "Checking the finished OUTLINE against the triangle rule (3 straight sides), not just calling it done.",
+            "misconception": "Leaving gaps or overlaps so the outline isn't really a triangle. Have the child trace the outline with a finger and count the sides."
+          }
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "theme": "Addition as Joining — Number Stories to 10",
+      "bigIdea": "Addition is what happens when groups come together. The story tells you what to do; the numbers just record it.",
+      "instruction": {
+        "title": "From story to number sentence",
+        "minutes": 9,
+        "body": [
+          "Tell a story: '3 ducks were in the pond. 2 more ducks came.'",
+          "Act it out with counters. Push the groups together. Count: 5.",
+          "Now write what happened: 3 + 2 = 5. The plus sign means 'came together'. The equals sign means 'is the same amount as'."
+        ],
+        "vocabulary": [
+          {
+            "term": "plus (+)",
+            "meaning": "joined together with"
+          },
+          {
+            "term": "equals (=)",
+            "meaning": "is the same amount as"
+          },
+          {
+            "term": "number sentence",
+            "meaning": "writing a story with numbers and signs"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Counting on from the bigger number",
+        "howToPractice": "For 2 + 6, start at 6 (the bigger one) and count on 2: 7, 8. Much faster than starting at 2. Practise choosing the bigger start."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "k-w08-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Write the number sentence for this story: '4 frogs sat on a log. 3 more frogs hopped on.' What does the + sign mean here?",
+          "answerKey": {
+            "answer": "4 + 3 = 7. The + means the two groups of frogs came together.",
+            "approaches": [
+              {
+                "name": "Match story to symbols",
+                "steps": [
+                  "The first group is 4 — write 4.",
+                  "'More hopped on' means joining — write +.",
+                  "The second group is 3 — write 3.",
+                  "Count all together: 7. Write = 7."
+                ]
+              }
+            ],
+            "lookFor": "Explaining the + as joining, in the child's own words, rather than reciting 'plus means add'.",
+            "misconception": "Writing 4 3 7 without signs. The signs carry the meaning — insist on them once the story is understood."
+          }
+        },
+        {
+          "id": "k-w08-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Solve 2 + 7 by counting on. Should you start at 2 or at 7? Why is one way faster?",
+          "answerKey": {
+            "answer": "9. Start at 7 and count on 2 (8, 9) — that is only two counts instead of seven.",
+            "approaches": [
+              {
+                "name": "Count on from the bigger",
+                "steps": [
+                  "Compare 2 and 7; 7 is bigger.",
+                  "Hold 7 in your head, count on 2 fingers: 8, 9.",
+                  "Answer 9, with only 2 counts."
+                ]
+              },
+              {
+                "name": "Prove the swap is legal",
+                "steps": [
+                  "Build 2 counters and 7 counters.",
+                  "Push together: 9.",
+                  "Swap the piles and push together again: still 9. So starting from either number is allowed."
+                ]
+              }
+            ],
+            "lookFor": "Justifying the strategy by EFFORT ('fewer counts') and knowing the swap is legal — not just doing it because they were told.",
+            "misconception": "Believing you must start with the first number written. Show the swap physically."
+          }
+        },
+        {
+          "id": "k-w08-p3",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Make up your OWN story for the number sentence 5 + 3 = 8. Then act it out with objects and check that it really makes 8.",
+          "answerKey": {
+            "answer": "Open-ended. Example: '5 cars were parked. 3 more drove in. Now there are 8 cars.'",
+            "approaches": [
+              {
+                "name": "Story-first, then verify",
+                "steps": [
+                  "Choose things you can count — cars, cookies, dogs.",
+                  "First group: 5. Something makes 3 more arrive.",
+                  "Act it with counters and count the total: 8. The story matches the sentence."
+                ]
+              }
+            ],
+            "lookFor": "A story where something genuinely JOINS. Going from symbols back to a real situation is harder than the other direction and is the deeper skill.",
+            "misconception": "Telling a taking-away story ('5 cars, 3 drove away') for a plus sentence. Act it out and see that the total comes out 2, not 8."
+          }
+        },
+        {
+          "id": "k-w08-p4",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "There are 6 red apples and 4 green apples. How many apples? Solve with a drawing AND with a number bond.",
+          "answerKey": {
+            "answer": "10 apples.",
+            "approaches": [
+              {
+                "name": "Drawing",
+                "steps": [
+                  "Draw 6 circles and 4 circles.",
+                  "Count them all: 10."
+                ]
+              },
+              {
+                "name": "Number bond",
+                "steps": [
+                  "Parts are 6 and 4; the whole is unknown.",
+                  "6 and 4 make 10 — a partner-to-ten fact from Week 3.",
+                  "The whole is 10."
+                ]
+              },
+              {
+                "name": "Count on",
+                "steps": [
+                  "Start at 6, count on 4: 7, 8, 9, 10."
+                ]
+              }
+            ],
+            "lookFor": "Recognizing 6 and 4 as a known ten-partner instead of counting. That is recall serving reasoning — exactly the right use of memorized facts.",
+            "misconception": "Counting all ten by ones every time even when a known bond applies. Ask: 'Do you already KNOW a pair that makes ten?'"
+          }
+        },
+        {
+          "id": "k-w08-p5",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Sam solved 3 + 4 by counting: '3, 4, 5, 6' and got 6. What did Sam do wrong? What should the answer be?",
+          "answerKey": {
+            "answer": "The answer is 7. Sam counted the starting number 3 as the first of the four counts.",
+            "approaches": [
+              {
+                "name": "Find the extra count",
+                "steps": [
+                  "Sam needed to count on FOUR from 3: 4, 5, 6, 7.",
+                  "Instead Sam said '3' as count number one, so only three counts happened after the start.",
+                  "The start number is where you begin, not one of the steps. Correct answer: 7."
+                ]
+              }
+            ],
+            "lookFor": "Naming the specific error — counting the start as a step. This is the single most common counting-on bug.",
+            "misconception": "Just saying '7' without diagnosing. Push: 'WHERE exactly did Sam go wrong?'"
+          }
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "theme": "Subtraction — Taking Away and Finding the Missing Part",
+      "bigIdea": "Subtraction answers two different-looking questions: 'how many are left?' and 'how many more are needed?' Both are about a missing part.",
+      "instruction": {
+        "title": "Two faces of subtraction",
+        "minutes": 9,
+        "body": [
+          "Take away: 7 grapes, eat 2, count what's left — 5. Write 7 - 2 = 5.",
+          "Missing part: you have 5 grapes and want 7. How many more? Also 2, because 5 and 2 make 7.",
+          "Both questions use the same number bond. The minus sign means 'take a part away from the whole'."
+        ],
+        "vocabulary": [
+          {
+            "term": "minus (-)",
+            "meaning": "take away from"
+          },
+          {
+            "term": "how many are left",
+            "meaning": "the part that stays"
+          },
+          {
+            "term": "difference",
+            "meaning": "the gap between two amounts"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Subtract by counting up when the numbers are close",
+        "howToPractice": "For 9 - 7, don't count back 7 times. Count up from 7 to 9: 8, 9 — that's 2. Practise noticing when counting UP is easier."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "k-w09-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Write the number sentence: 'There were 8 cookies. We ate 3.' What does the minus sign tell you happened?",
+          "answerKey": {
+            "answer": "8 - 3 = 5. The minus sign says a part was taken away from the whole.",
+            "approaches": [
+              {
+                "name": "Story to symbols",
+                "steps": [
+                  "Whole at the start: 8.",
+                  "'We ate 3' means 3 left the group — write - 3.",
+                  "Count what remains: 5."
+                ]
+              }
+            ],
+            "lookFor": "Putting the WHOLE first. Order matters in subtraction, unlike addition.",
+            "misconception": "Writing 3 - 8 because 3 was mentioned second in their retelling. Act it out: you can't eat 8 from a pile of 3."
+          }
+        },
+        {
+          "id": "k-w09-p2",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Solve 9 - 7 two ways: by taking away, and by counting up. Which was easier, and why?",
+          "answerKey": {
+            "answer": "2. Counting up is much easier here.",
+            "approaches": [
+              {
+                "name": "Take away",
+                "steps": [
+                  "Start with 9 counters.",
+                  "Remove 7, one at a time.",
+                  "2 remain. Seven removals is a lot of moves."
+                ]
+              },
+              {
+                "name": "Count up",
+                "steps": [
+                  "Start at 7, count up to 9: 8, 9.",
+                  "Two counts. Answer 2."
+                ]
+              }
+            ],
+            "lookFor": "The judgment call — 'counting up was easier because the numbers are close together.' Choosing a strategy based on the numbers is the whole skill.",
+            "misconception": "Believing subtraction must always be done by taking away. Contrast with 9 - 2, where taking away IS easier, so the choice depends on the numbers."
+          }
+        },
+        {
+          "id": "k-w09-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "There are 10 socks. 6 are in the drawer. The rest are lost. How many are lost? Is this a take-away problem or a missing-part problem? Explain.",
+          "answerKey": {
+            "answer": "4 socks lost. It is a missing-part problem — nothing was removed in front of us; we know the whole and one part.",
+            "approaches": [
+              {
+                "name": "Number bond",
+                "steps": [
+                  "Whole 10, known part 6.",
+                  "6 and 4 make 10.",
+                  "Missing part: 4."
+                ]
+              },
+              {
+                "name": "Written as subtraction",
+                "steps": [
+                  "10 - 6 = 4.",
+                  "Subtraction can find a missing part even when nothing was 'taken away' in the story."
+                ]
+              }
+            ],
+            "lookFor": "Recognizing that subtraction covers missing-part situations too. That insight prevents years of word-problem confusion.",
+            "misconception": "Insisting it must be addition because nothing was taken away. Show that the bond is the same either way."
+          }
+        },
+        {
+          "id": "k-w09-p4",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "The answer is 3. Make up two DIFFERENT take-away stories where the answer is 3.",
+          "answerKey": {
+            "answer": "Open-ended. Examples: '7 birds, 4 flew away, 3 left' (7-3... check: 7-4=3 ✓) and '5 apples, 2 eaten, 3 left' (5-2=3 ✓).",
+            "approaches": [
+              {
+                "name": "Work backwards from the answer",
+                "steps": [
+                  "Pick what is left: 3.",
+                  "Pick how many go away: say 4.",
+                  "The whole must have been 3 and 4 together — 7. Story: 7 birds, 4 flew away, 3 stayed.",
+                  "Repeat with a different 'goes away' number for a second story."
+                ]
+              }
+            ],
+            "lookFor": "A SYSTEM for generating stories (pick the part that leaves, rebuild the whole) rather than trial and error. Working backwards is a major reasoning move.",
+            "misconception": "Producing stories that don't check out. Always verify by acting the story out with counters."
+          }
+        },
+        {
+          "id": "k-w09-p5",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Ana says: '8 - 5 is the same as 5 - 8, because it's the same numbers.' Is Ana right? Use counters to prove your answer.",
+          "answerKey": {
+            "answer": "No. 8 - 5 = 3. You cannot take 8 away from a group of only 5 — you would run out.",
+            "approaches": [
+              {
+                "name": "Try it with counters",
+                "steps": [
+                  "Put out 8 counters, take 5 away — 3 left.",
+                  "Now put out 5 counters and try to take 8 away — impossible, only 5 exist.",
+                  "So the order matters in subtraction."
+                ]
+              },
+              {
+                "name": "Contrast with addition",
+                "steps": [
+                  "In addition, 5 + 3 and 3 + 5 both give 8 — order does not matter.",
+                  "In subtraction it does. The whole must come first."
+                ]
+              }
+            ],
+            "lookFor": "The contrast with addition. Knowing WHICH rules transfer and which do not is deeper than knowing either rule.",
+            "misconception": "Overgeneralizing the addition swap rule to subtraction. This is extremely common — the counter demonstration settles it permanently."
+          }
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "theme": "Teen Numbers — Ten and Some More",
+      "bigIdea": "Every teen number is one ten plus some extra ones. Seeing the ten inside is what makes big numbers easy.",
+      "instruction": {
+        "title": "The hidden ten",
+        "minutes": 10,
+        "body": [
+          "Fill one ten frame completely (10) and start a second one with 4 counters.",
+          "That is 14 — say it as 'ten and four'. The 1 in 14 means one full ten.",
+          "Do this for 11 through 19. Notice the pattern in the words: 'four-teen' really means 'four and ten'."
+        ],
+        "vocabulary": [
+          {
+            "term": "ten and some more",
+            "meaning": "how every teen number is built"
+          },
+          {
+            "term": "teen numbers",
+            "meaning": "the numbers 11 to 19"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Making a ten to add",
+        "howToPractice": "For 9 + 5, move one from the 5 to the 9 to make 10, leaving 4. 10 and 4 is 14. Practise the move-one trick out loud."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "k-w10-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "One full ten frame and 6 more counters. What number is this? Say it as 'ten and ___'.",
+          "answerKey": {
+            "answer": "16 — 'ten and six'.",
+            "approaches": [
+              {
+                "name": "Read the frames",
+                "steps": [
+                  "The full frame is 10 — no need to count it.",
+                  "The extra counters are 6.",
+                  "Ten and six is sixteen."
+                ]
+              }
+            ],
+            "lookFor": "NOT recounting the full ten frame. Trusting that a full frame is 10 is the point of the structure.",
+            "misconception": "Counting all 16 from 1. Cover the full frame with your hand and say 'this one is ten — start from there.'"
+          }
+        },
+        {
+          "id": "k-w10-p2",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "In the number 13, what does the 1 stand for? What does the 3 stand for?",
+          "answerKey": {
+            "answer": "The 1 stands for one whole ten. The 3 stands for three extra ones.",
+            "approaches": [
+              {
+                "name": "Build and label",
+                "steps": [
+                  "Build 13 as a full ten frame plus 3.",
+                  "Point at the full frame — that is what the 1 means.",
+                  "Point at the extras — that is what the 3 means."
+                ]
+              }
+            ],
+            "lookFor": "Saying 'one ten', not 'one'. This is the first taste of place value and it pays off for years.",
+            "misconception": "Reading 13 as 'one and three'. Always build it before naming it."
+          }
+        },
+        {
+          "id": "k-w10-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Which is more, 15 or 12? How can you tell WITHOUT counting all the way up?",
+          "answerKey": {
+            "answer": "15 is more.",
+            "approaches": [
+              {
+                "name": "Both have a ten",
+                "steps": [
+                  "15 is ten and 5. 12 is ten and 2.",
+                  "The tens are the same, so compare the extras: 5 is more than 2.",
+                  "So 15 is more — by 3."
+                ]
+              }
+            ],
+            "lookFor": "Comparing the EXTRAS after noticing the tens match. That is exactly how place-value comparison works with big numbers later.",
+            "misconception": "Counting from 1 up to both numbers. Faster and more meaningful is to strip off the shared ten."
+          }
+        },
+        {
+          "id": "k-w10-p4",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Solve 9 + 4 two ways: by counting on, and by making a ten first. Which do you like better?",
+          "answerKey": {
+            "answer": "13.",
+            "approaches": [
+              {
+                "name": "Count on",
+                "steps": [
+                  "Start at 9, count on 4: 10, 11, 12, 13."
+                ]
+              },
+              {
+                "name": "Make a ten",
+                "steps": [
+                  "9 needs 1 more to be 10.",
+                  "Take 1 from the 4, leaving 3.",
+                  "Now it is 10 + 3 = 13."
+                ]
+              }
+            ],
+            "lookFor": "Explaining WHY making a ten is allowed — the 1 was moved, not created. Nothing was added or lost overall.",
+            "misconception": "Forgetting to reduce the 4 to 3 after moving one over, giving 14. Physically move a counter so the move is visible."
+          }
+        },
+        {
+          "id": "k-w10-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Build 14 with ten frames. Now build 14 a different way using two groups that are NOT ten and four. How many ways can you find?",
+          "answerKey": {
+            "answer": "Many: 7 and 7, 8 and 6, 9 and 5, 11 and 3, 12 and 2, and so on.",
+            "approaches": [
+              {
+                "name": "Move counters across",
+                "steps": [
+                  "Start with 10 and 4.",
+                  "Move one counter over: 9 and 5. Still 14.",
+                  "Keep moving: 8 and 6, 7 and 7...",
+                  "Every move keeps the total because nothing enters or leaves."
+                ]
+              }
+            ],
+            "lookFor": "The invariance argument — 'the total stays 14 because I only MOVED counters.' Same idea as Week 1 conservation, now with bigger numbers.",
+            "misconception": "Adding counters when making a new arrangement. Count the total after each rearrangement to check it is still 14."
+          }
+        },
+        {
+          "id": "k-w10-p6",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Ben says 'eleven' should really be called 'ten-one' and 'twelve' should be 'ten-two'. Would that make counting easier? What do you think?",
+          "answerKey": {
+            "answer": "Yes — those names would show the ten-and-some-more structure directly, the way 'sixteen' hints at 'six and ten'. Eleven and twelve are just old English words that hide the pattern.",
+            "approaches": [
+              {
+                "name": "Compare the names to the structure",
+                "steps": [
+                  "Build 11: a full ten and 1.",
+                  "The name 'eleven' does not say ten or one anywhere.",
+                  "'Ten-one' would say exactly what you built.",
+                  "So Ben's names describe the math better, even though we don't use them."
+                ]
+              }
+            ],
+            "lookFor": "Any argument connecting the NAME to the built structure. There is no wrong opinion here — the reasoning is the whole assignment.",
+            "misconception": "Thinking Ben is 'wrong' because that isn't how we say it. Distinguish 'what we call it' from 'how it is built'."
+          }
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "theme": "Measuring — Comparing Length, Weight, and Capacity",
+      "bigIdea": "To measure, you repeat one unit over and over with no gaps and no overlaps. Change the unit and the number changes, but the object does not.",
+      "instruction": {
+        "title": "Measuring with paper clips",
+        "minutes": 9,
+        "body": [
+          "Line paper clips end to end along a pencil, starting exactly at the tip. No gaps, no overlaps.",
+          "Count them: the pencil is '5 paper clips long'.",
+          "Now measure the same pencil with bigger clips — you need fewer. Bigger unit, smaller number."
+        ],
+        "vocabulary": [
+          {
+            "term": "longer / shorter",
+            "meaning": "comparing length"
+          },
+          {
+            "term": "heavier / lighter",
+            "meaning": "comparing weight"
+          },
+          {
+            "term": "unit",
+            "meaning": "the thing you repeat to measure with"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Estimate then measure",
+        "howToPractice": "Before measuring anything, guess the number of units. Then measure. Getting closer over time is the win."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "k-w11-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Measure a spoon using paper clips laid end to end. How many clips long is it? Why must you start at the very end of the spoon?",
+          "materials": "A spoon and 8-10 identical paper clips",
+          "answerKey": {
+            "answer": "Answer varies (typically 3-5 clips). You must start at the end so no part of the spoon goes unmeasured.",
+            "approaches": [
+              {
+                "name": "Line up from the end",
+                "steps": [
+                  "Place the first clip exactly at the spoon's tip.",
+                  "Add clips end to end, touching but not overlapping.",
+                  "Count the clips used."
+                ]
+              }
+            ],
+            "lookFor": "No gaps and no overlaps, and starting at zero. Those two rules are the entire foundation of measurement.",
+            "misconception": "Starting partway along or leaving gaps, which changes the count. Have them re-measure carefully and compare the two numbers."
+          }
+        },
+        {
+          "id": "k-w11-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "The same table measured 8 shoes long when Dad measured it, but 12 shoes long when you measured it. Nobody made a mistake. How can that be?",
+          "answerKey": {
+            "answer": "Dad's shoes are bigger, so fewer of them fit. The table did not change — the unit did.",
+            "approaches": [
+              {
+                "name": "Bigger unit, fewer needed",
+                "steps": [
+                  "The table has one true length.",
+                  "A big shoe covers more table per step, so fewer steps are needed: 8.",
+                  "A small shoe covers less, so more are needed: 12.",
+                  "Both measurements are correct for their own unit."
+                ]
+              }
+            ],
+            "lookFor": "The inverse relationship: bigger unit → smaller number. This is proportional reasoning and it comes back in Grade 5 as unit rate.",
+            "misconception": "Deciding someone counted wrong. Actually measure something with two different-sized units to make it concrete."
+          }
+        },
+        {
+          "id": "k-w11-p3",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Which is heavier, a full water bottle or a shoe? Find out two ways: by holding one in each hand, and by using a balance (a hanger with bags, or a ruler on a pencil).",
+          "answerKey": {
+            "answer": "Depends on your objects — usually the full bottle. The point is that two methods agree.",
+            "approaches": [
+              {
+                "name": "Hands",
+                "steps": [
+                  "Hold one object in each hand and feel which pulls down more.",
+                  "This works well when the difference is big."
+                ]
+              },
+              {
+                "name": "Balance",
+                "steps": [
+                  "Put each object on one side of a balance.",
+                  "The side that goes DOWN is heavier.",
+                  "A balance can show small differences hands cannot feel."
+                ]
+              }
+            ],
+            "lookFor": "Recognizing that the balance is more trustworthy when the objects feel similar. Choosing the right tool is a reasoning skill.",
+            "misconception": "Assuming bigger always means heavier. Test with a big pillow and a small rock."
+          }
+        },
+        {
+          "id": "k-w11-p4",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Find three things in your house that are shorter than your arm and three that are longer. How did you check without a ruler?",
+          "answerKey": {
+            "answer": "Open-ended. The method matters: comparing each object directly against the arm.",
+            "approaches": [
+              {
+                "name": "Direct comparison",
+                "steps": [
+                  "Hold the object next to the arm, lining up one end.",
+                  "See which sticks out farther.",
+                  "Sort into shorter and longer piles."
+                ]
+              },
+              {
+                "name": "Use a string as a go-between",
+                "steps": [
+                  "Cut a string the length of your arm.",
+                  "Carry the string to objects too big to bring back.",
+                  "Compare each object to the string — if the string is longer, the object is shorter than your arm."
+                ]
+              }
+            ],
+            "lookFor": "The string method is transitive reasoning — 'if the object is shorter than the string and the string equals my arm, the object is shorter than my arm.' It is a genuinely big idea.",
+            "misconception": "Guessing from memory instead of comparing. Insist on lining things up."
+          }
+        },
+        {
+          "id": "k-w11-p5",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Maya measured her book as 6 blocks long, but she left little gaps between the blocks. Is her answer too big, too small, or right? Why?",
+          "answerKey": {
+            "answer": "Too small. The gaps mean the blocks did not cover the whole book, so fewer blocks were counted than the book really needs.",
+            "approaches": [
+              {
+                "name": "Reason about coverage",
+                "steps": [
+                  "Each gap is book length that no block covered.",
+                  "If she pushed the blocks together, they would not reach the end.",
+                  "She would need MORE blocks to actually cover it — so the true measure is more than 6."
+                ]
+              }
+            ],
+            "lookFor": "Predicting the DIRECTION of the error, not just noticing an error happened. Directional error reasoning is sophisticated.",
+            "misconception": "Guessing 'too big' because the gapped row looks longer. Demonstrate by pushing the blocks together and seeing them fall short of the book's end."
+          }
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "theme": "Cumulative Review 2 — Number Detective",
+      "bigIdea": "Everything this term connects: counting, parts and wholes, comparing, and explaining how you know.",
+      "instruction": {
+        "title": "Review week — you are the mathematician",
+        "minutes": 5,
+        "body": [
+          "No new ideas this week. Every problem mixes things from Weeks 1-11.",
+          "For every problem, the real question is the same: how do you KNOW?",
+          "Let your child pick which problem to do first — ownership matters at the end of a term."
+        ],
+        "vocabulary": []
+      },
+      "mentalMath": {
+        "strategy": "Everything, mixed",
+        "howToPractice": "Rapid-fire across all strategies: partners to 10, one more/less, make-a-ten, count on from the bigger. Switching types is the challenge."
+      },
+      "cumulativeReview": true,
+      "problems": [
+        {
+          "id": "k-w12-p1",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "I am thinking of a number. It is more than 6. It is less than 9. It is not 7. What is my number? How did you narrow it down?",
+          "answerKey": {
+            "answer": "8.",
+            "approaches": [
+              {
+                "name": "Eliminate step by step",
+                "steps": [
+                  "More than 6 leaves 7, 8, 9, 10...",
+                  "Less than 9 cuts it down to 7 and 8.",
+                  "Not 7 leaves only 8."
+                ]
+              }
+            ],
+            "lookFor": "Using each clue to shrink the list, and knowing when only one candidate remains. That is deductive reasoning.",
+            "misconception": "Guessing a number that fits one clue but not all. Have them test their answer against every clue out loud."
+          }
+        },
+        {
+          "id": "k-w12-p2",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "There are 12 crayons. 5 are broken. How many are not broken? Solve it two ways, and say which way you would use again next time.",
+          "answerKey": {
+            "answer": "7 crayons are not broken.",
+            "approaches": [
+              {
+                "name": "Take away",
+                "steps": [
+                  "Start with 12, remove 5.",
+                  "12, 11, 10, 9, 8, 7 — counting back five times gives 7."
+                ]
+              },
+              {
+                "name": "Count up",
+                "steps": [
+                  "From 5 count up to 12: 6, 7, 8, 9, 10, 11, 12 — seven counts.",
+                  "So 7."
+                ]
+              },
+              {
+                "name": "Use the ten",
+                "steps": [
+                  "12 is ten and 2.",
+                  "Take 5 from the ten: 5 left, plus the extra 2 makes 7."
+                ]
+              }
+            ],
+            "lookFor": "A reasoned preference — 'take away was easier because 5 is small.' Strategy choice with a justification is the term's capstone skill.",
+            "misconception": "Having no preference or picking randomly. Ask which one had fewer steps for them."
+          }
+        },
+        {
+          "id": "k-w12-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Look at these two groups: 🐟🐟🐟🐟🐟🐟🐟 and 🐠🐠🐠🐠. Ask and answer TWO different math questions about them.",
+          "answerKey": {
+            "answer": "7 and 4. Example questions: 'How many altogether?' (11) and 'How many more dark fish than light?' (3).",
+            "approaches": [
+              {
+                "name": "Join question",
+                "steps": [
+                  "How many fish in all? 7 and 4 — count on from 7: 8, 9, 10, 11."
+                ]
+              },
+              {
+                "name": "Compare question",
+                "steps": [
+                  "How many more? Match them up: 4 pairs, 3 dark fish left over.",
+                  "3 more."
+                ]
+              }
+            ],
+            "lookFor": "Two DIFFERENT question types — one joining, one comparing. Asking the question is harder than answering it.",
+            "misconception": "Asking the same question twice with different words. Prompt for one 'altogether' question and one 'how many more' question."
+          }
+        },
+        {
+          "id": "k-w12-p4",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Your grown-up says: 'I have 14 stickers. That's the same as one full ten frame and 5 more.' Are they right? Prove it.",
+          "answerKey": {
+            "answer": "No. A full ten frame and 5 more is 15, not 14. For 14 you need a full ten frame and 4 more.",
+            "approaches": [
+              {
+                "name": "Build the claim",
+                "steps": [
+                  "Build a full ten frame (10) plus 5 counters.",
+                  "Count: ten and five is fifteen.",
+                  "14 is ten and FOUR, so the claim is off by one."
+                ]
+              }
+            ],
+            "lookFor": "Building the claim rather than reasoning from the digits alone — though noticing 'the 4 in 14 means four extras' is even better.",
+            "misconception": "Agreeing without checking. By Week 12, checking a claim should be automatic."
+          }
+        },
+        {
+          "id": "k-w12-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Design a math problem for your grown-up to solve. It has to be hard enough that they need to think, and you have to know the answer and be able to explain it.",
+          "answerKey": {
+            "answer": "Open-ended. A good child-made problem has a clear question, numbers within their range, and a story that makes sense.",
+            "approaches": [
+              {
+                "name": "Design backwards",
+                "steps": [
+                  "Decide the answer first, so you know it for sure.",
+                  "Build a story that leads to it.",
+                  "Test the problem on yourself: can you explain why the answer is right?",
+                  "Then pose it and check the grown-up's reasoning."
+                ]
+              }
+            ],
+            "lookFor": "Whether the child can EXPLAIN their own answer when challenged. Being able to defend a problem you invented is the strongest evidence of understanding in this whole term.",
+            "misconception": "Inventing an unanswerable problem or one they cannot solve. That is fine — work it out together and fix the problem so it works."
+          }
+        }
+      ]
+    }
+  ]
+}

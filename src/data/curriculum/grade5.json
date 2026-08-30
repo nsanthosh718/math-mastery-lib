@@ -1,0 +1,2452 @@
+{
+  "trackId": "grade5",
+  "title": "Grade 5 — Accelerated Toward 7th-Grade Readiness",
+  "gradeLabel": "5th Grade (accelerated)",
+  "durationWeeks": 12,
+  "approach": "Fractions and decimals mastery → ratios and proportional reasoning → pre-algebra. Roughly 20% of each week is direct instruction on new notation; the other 80% is multi-step reasoning, bar models, error analysis, and open-ended problems with more than one valid path. Geometry and measurement are woven into the problems rather than taught as a separate unit.",
+  "parentNote": "Sessions run 30-40 minutes, 4-5 days a week. The instruction block is short on purpose — read it together, then spend the time on the problems. A correct answer with no explanation is not finished work.",
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "Fraction Sense — Comparing Without Common Denominators",
+      "bigIdea": "A fraction is a number with a location on the number line. You can often compare fractions by reasoning about their size relative to landmarks like 0, 1/2, and 1 — no algorithm required.",
+      "instruction": {
+        "title": "What the two numbers actually mean",
+        "minutes": 8,
+        "body": [
+          "In 3/4, the denominator 4 says the whole was cut into 4 equal pieces. The numerator 3 says you have 3 of them.",
+          "The bigger the denominator, the SMALLER each piece: 1/8 is less than 1/5 even though 8 > 5.",
+          "Equivalent fractions come from cutting every piece into the same number of smaller pieces: 2/3 = 4/6 = 8/12. The amount never changed, only how finely it was cut."
+        ],
+        "vocabulary": [
+          {
+            "term": "numerator",
+            "meaning": "how many pieces you have"
+          },
+          {
+            "term": "denominator",
+            "meaning": "how many equal pieces the whole was cut into"
+          },
+          {
+            "term": "benchmark",
+            "meaning": "a landmark value like 0, 1/2, or 1 used for comparing"
+          },
+          {
+            "term": "equivalent",
+            "meaning": "different notation, same value"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Benchmark comparison",
+        "howToPractice": "Call out a fraction; the child instantly says whether it is less than 1/2, equal to 1/2, or more than 1/2, and why. A fraction is more than half when the numerator is more than half the denominator."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "g5-w01-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Write three fractions equivalent to 3/5 and explain what stays the same and what changes each time.",
+          "answerKey": {
+            "answer": "6/10, 9/15, 12/20 (and infinitely many others).",
+            "approaches": [
+              {
+                "name": "Multiply both parts",
+                "steps": [
+                  "Multiply numerator and denominator by the same number: 3/5 × 2/2 = 6/10.",
+                  "Using 3/3 gives 9/15; using 4/4 gives 12/20.",
+                  "Multiplying by 2/2 is multiplying by 1, so the VALUE is unchanged."
+                ]
+              },
+              {
+                "name": "Cut the picture finer",
+                "steps": [
+                  "Draw a bar in 5 parts, shade 3.",
+                  "Cut every part in half — now 10 parts with 6 shaded.",
+                  "The shaded amount is physically identical; only the number of cuts changed."
+                ]
+              }
+            ],
+            "lookFor": "Saying that the value stays the same while the SIZE and COUNT of pieces both change. If the child says only 'you multiply both', push for why that is allowed.",
+            "misconception": "Adding the same number to both parts (3/5 → 4/6). Test it: 3/5 = 0.6 but 4/6 ≈ 0.667. Adding changes the value; multiplying does not."
+          }
+        },
+        {
+          "id": "g5-w01-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Which is larger, 5/8 or 4/7? Do NOT find a common denominator. Justify your reasoning.",
+          "answerKey": {
+            "answer": "5/8 is larger.",
+            "approaches": [
+              {
+                "name": "Distance from 1",
+                "steps": [
+                  "5/8 is 3/8 away from 1. 4/7 is 3/7 away from 1.",
+                  "Both gaps have numerator 3, but sevenths are bigger pieces than eighths, so 3/7 > 3/8.",
+                  "4/7 is FARTHER below 1, so it is the smaller fraction. 5/8 wins."
+                ]
+              },
+              {
+                "name": "Benchmark 1/2 refined",
+                "steps": [
+                  "Half of 8 is 4, so 5/8 is 1/8 above 1/2.",
+                  "Half of 7 is 3.5, so 4/7 is 0.5/7 = 1/14 above 1/2.",
+                  "1/8 > 1/14, so 5/8 sits farther above 1/2."
+                ]
+              },
+              {
+                "name": "Verify by decimals",
+                "steps": [
+                  "5/8 = 0.625, 4/7 ≈ 0.571. Confirms 5/8 is larger."
+                ]
+              }
+            ],
+            "lookFor": "The distance-from-1 argument. It is fast, general, and shows the child is thinking about fractions as positions rather than as pairs of digits.",
+            "misconception": "Cross-multiplying without understanding. It gives the right answer (5×7=35 > 4×8=32) but teaches nothing about size — if the child uses it, ask them to also explain WHY 5/8 is bigger."
+          }
+        },
+        {
+          "id": "g5-w01-p3",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Order these from smallest to largest, two different ways: 2/5, 7/8, 1/2, 5/9, 3/4.",
+          "answerKey": {
+            "answer": "2/5 < 1/2 < 5/9 < 3/4 < 7/8.",
+            "approaches": [
+              {
+                "name": "Benchmark sorting",
+                "steps": [
+                  "Below 1/2: 2/5 (since 2 < 2.5).",
+                  "Equal to 1/2: 1/2.",
+                  "Just above 1/2: 5/9 (5 is barely more than 4.5).",
+                  "Well above 1/2, close to 1: 3/4 is 1/4 from 1; 7/8 is only 1/8 from 1, so 7/8 is largest.",
+                  "Order: 2/5, 1/2, 5/9, 3/4, 7/8."
+                ]
+              },
+              {
+                "name": "Common denominator 360",
+                "steps": [
+                  "2/5 = 144/360, 1/2 = 180/360, 5/9 = 200/360, 3/4 = 270/360, 7/8 = 315/360.",
+                  "Same order, confirmed."
+                ]
+              },
+              {
+                "name": "Decimals",
+                "steps": [
+                  "0.4, 0.875, 0.5, 0.556, 0.75 → sorted: 0.4, 0.5, 0.556, 0.75, 0.875."
+                ]
+              }
+            ],
+            "lookFor": "Doing the benchmark sort FIRST and using the computation only to check. Reasoning first, arithmetic to verify.",
+            "misconception": "Ordering by numerator or by denominator alone. Ask: 'Is 5/9 bigger than 3/4 just because 9 > 4?'"
+          }
+        },
+        {
+          "id": "g5-w01-p4",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Jordan writes: '3/4 is less than 3/6 because 6 is bigger than 4.' Find the error, explain exactly what Jordan misunderstood, and write a rule Jordan could use instead.",
+          "answerKey": {
+            "answer": "Wrong — 3/4 is larger. 3/4 = 0.75 and 3/6 = 0.5.",
+            "approaches": [
+              {
+                "name": "Picture the pieces",
+                "steps": [
+                  "Cutting a bar into 6 pieces makes SMALLER pieces than cutting it into 4.",
+                  "Three small pieces are less than three big pieces.",
+                  "So 3/6 < 3/4."
+                ]
+              },
+              {
+                "name": "State the corrected rule",
+                "steps": [
+                  "When numerators are the SAME, the fraction with the smaller denominator is larger, because the pieces are bigger.",
+                  "Jordan applied a whole-number rule (bigger digit = bigger number) to a denominator, where it reverses."
+                ]
+              }
+            ],
+            "lookFor": "Naming the inversion explicitly — a larger denominator means smaller pieces. Also credit noticing that Jordan's rule only applies when numerators match.",
+            "misconception": "Fixing only this one problem without stating a rule. The general statement is what transfers."
+          }
+        },
+        {
+          "id": "g5-w01-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Find a fraction strictly between 1/3 and 1/2. Then find another one that is different. How many fractions live between them? Explain how you know.",
+          "answerKey": {
+            "answer": "Infinitely many. Examples: 5/12, 2/5, 3/7, 7/18.",
+            "approaches": [
+              {
+                "name": "Common denominator, then look in the gap",
+                "steps": [
+                  "1/3 = 4/12 and 1/2 = 6/12.",
+                  "5/12 sits between them.",
+                  "For more room, use 24ths: 8/24 and 12/24, so 9/24, 10/24, 11/24 all fit."
+                ]
+              },
+              {
+                "name": "Average the two",
+                "steps": [
+                  "The midpoint of 1/3 and 1/2 is (1/3 + 1/2) ÷ 2 = (5/6) ÷ 2 = 5/12.",
+                  "Average again to get another: midpoint of 1/3 and 5/12 is 3/8. Repeat forever."
+                ]
+              },
+              {
+                "name": "Why infinitely many",
+                "steps": [
+                  "Any time you have two different fractions, their average lies strictly between them.",
+                  "That average is itself a fraction, so you can average again.",
+                  "The process never ends — so there is no limit to how many fractions fit."
+                ]
+              }
+            ],
+            "lookFor": "The infinity argument via repeated averaging. This is the density of the rationals, and a fifth grader can genuinely reason it out.",
+            "misconception": "Saying 'none' or 'only one' because no fraction with a small denominator seems to fit. Push them to re-cut into more pieces."
+          }
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "theme": "Adding and Subtracting Unlike Fractions with Bar Models",
+      "bigIdea": "You can only add pieces that are the same size. Finding a common denominator is not a rule to obey — it is re-cutting both bars so the pieces match.",
+      "instruction": {
+        "title": "Why the denominators have to match",
+        "minutes": 9,
+        "body": [
+          "Draw 1/2 of a bar and 1/3 of an identical bar. You cannot count the shaded parts together — the pieces are different sizes.",
+          "Cut both bars into sixths: 1/2 becomes 3/6, 1/3 becomes 2/6. Now the pieces match and you can count: 5/6.",
+          "The common denominator is just a shared piece size. The least common denominator keeps the numbers small, but ANY common denominator works."
+        ],
+        "vocabulary": [
+          {
+            "term": "common denominator",
+            "meaning": "a shared piece size both fractions can be rewritten with"
+          },
+          {
+            "term": "bar model",
+            "meaning": "a rectangle drawn to scale that shows parts of a whole"
+          },
+          {
+            "term": "improper fraction",
+            "meaning": "a fraction whose value is 1 or more, like 13/12"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Compensation",
+        "howToPractice": "For 3/4 + 1/2, think 3/4 + 1/4 = 1, and 1/2 is one more quarter than that, so the answer is 1 1/4. Adjust to a landmark, then correct."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "g5-w02-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Compute 3/4 - 2/3. Draw the bar model that shows why the answer is what it is.",
+          "answerKey": {
+            "answer": "1/12.",
+            "approaches": [
+              {
+                "name": "Re-cut both bars",
+                "steps": [
+                  "Twelfths work for both: 3/4 = 9/12 and 2/3 = 8/12.",
+                  "9/12 - 8/12 = 1/12.",
+                  "In the drawing, the two shadings almost coincide — the sliver of difference is exactly one twelfth."
+                ]
+              }
+            ],
+            "lookFor": "A bar model drawn roughly to scale, so the tiny answer looks tiny. A drawing where 1/12 looks huge means the model is decorative, not a tool.",
+            "misconception": "Subtracting straight across to get 1/1 or 1/12 by accident (3-2=1, 4-3=1). Getting the right digits for the wrong reason is worse than an error — check the reasoning, not just the answer."
+          }
+        },
+        {
+          "id": "g5-w02-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Maya read 2/5 of her book on Monday and another 1/3 on Tuesday. What fraction of the book is left? Show it with one bar model.",
+          "answerKey": {
+            "answer": "4/15 of the book is left.",
+            "approaches": [
+              {
+                "name": "Bar model in fifteenths",
+                "steps": [
+                  "Draw one bar as the whole book and cut it into 15 equal parts (15 works for both 5 and 3).",
+                  "Monday: 2/5 = 6/15. Tuesday: 1/3 = 5/15.",
+                  "Read so far: 6/15 + 5/15 = 11/15.",
+                  "Left: 15/15 - 11/15 = 4/15."
+                ]
+              },
+              {
+                "name": "Subtract from 1 in two steps",
+                "steps": [
+                  "1 - 2/5 = 3/5 remaining after Monday.",
+                  "3/5 - 1/3 = 9/15 - 5/15 = 4/15."
+                ]
+              }
+            ],
+            "lookFor": "Both fractions being measured against the SAME whole book. Also credit noticing that both methods land on 4/15.",
+            "misconception": "Taking 1/3 of what remained rather than 1/3 of the book. The wording says 'another 1/3', meaning of the book — but this ambiguity is worth discussing, because Week 4 has a problem where it genuinely IS of the remainder."
+          }
+        },
+        {
+          "id": "g5-w02-p3",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Compute 5/6 - 1/4 two different ways, then explain why both must give the same result.",
+          "answerKey": {
+            "answer": "7/12.",
+            "approaches": [
+              {
+                "name": "Least common denominator",
+                "steps": [
+                  "LCD of 6 and 4 is 12.",
+                  "5/6 = 10/12 and 1/4 = 3/12.",
+                  "10/12 - 3/12 = 7/12."
+                ]
+              },
+              {
+                "name": "Any common denominator",
+                "steps": [
+                  "Use 24: 5/6 = 20/24, 1/4 = 6/24.",
+                  "20/24 - 6/24 = 14/24, which simplifies to 7/12.",
+                  "Same value — the LCD only saves simplifying later."
+                ]
+              },
+              {
+                "name": "Decimal check",
+                "steps": [
+                  "5/6 ≈ 0.8333, 1/4 = 0.25, difference ≈ 0.5833.",
+                  "7/12 ≈ 0.5833 ✓."
+                ]
+              }
+            ],
+            "lookFor": "Understanding that the LCD is a convenience, not a requirement. Children who think only the LCD is 'allowed' are following a rule they do not understand.",
+            "misconception": "Believing an unsimplified answer is wrong. 14/24 is a correct value; it is just not in lowest terms."
+          }
+        },
+        {
+          "id": "g5-w02-p4",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Sam writes 1/2 + 1/3 = 2/5. Sam argues: 'I added the tops and I added the bottoms, just like the numbers say.' Show Sam that this cannot be right WITHOUT just doing the correct calculation.",
+          "answerKey": {
+            "answer": "2/5 is impossible, because 2/5 is less than 1/2 — and adding a positive amount to 1/2 must give MORE than 1/2. (The true answer is 5/6.)",
+            "approaches": [
+              {
+                "name": "Size argument",
+                "steps": [
+                  "Adding 1/3 to 1/2 must make the result bigger than 1/2.",
+                  "2/5 is less than 1/2 (since 2 < 2.5).",
+                  "So Sam's answer is smaller than what he started with. Impossible."
+                ]
+              },
+              {
+                "name": "Where the rule comes from",
+                "steps": [
+                  "Adding tops-and-bottoms treats the two denominators as if they were counts of the same-size piece.",
+                  "Halves and thirds are different sizes, so the counts cannot be combined until the pieces match."
+                ]
+              }
+            ],
+            "lookFor": "The size/plausibility argument BEFORE any computing. Estimating whether an answer is even possible is the habit that catches most real-world errors.",
+            "misconception": "Sam's rule is not random — it is how you combine ratios in a batting average. Mention that it is the right move in a different context, which is why it feels natural."
+          }
+        },
+        {
+          "id": "g5-w02-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "A recipe needs 2 1/4 cups of flour. You already added 1 5/6 cups. How much more do you need? Then: if you only have a 1/3-cup scoop, is the amount you still need a whole number of scoops? Explain.",
+          "answerKey": {
+            "answer": "You need 5/12 cup more. That is NOT a whole number of 1/3-cup scoops — it is 1 and 1/4 scoops.",
+            "approaches": [
+              {
+                "name": "Subtract mixed numbers",
+                "steps": [
+                  "2 1/4 - 1 5/6. Convert: 2 1/4 = 27/12 and 1 5/6 = 22/12.",
+                  "27/12 - 22/12 = 5/12 cup."
+                ]
+              },
+              {
+                "name": "Count up to the target",
+                "steps": [
+                  "From 1 5/6, add 1/6 to reach 2 cups.",
+                  "From 2 to 2 1/4 is another 1/4.",
+                  "1/6 + 1/4 = 2/12 + 3/12 = 5/12 cup ✓."
+                ]
+              },
+              {
+                "name": "Scoops",
+                "steps": [
+                  "One scoop is 1/3 = 4/12.",
+                  "5/12 ÷ 4/12 = 5/4 = 1.25 scoops.",
+                  "So one full scoop plus a quarter of a scoop — not a whole number."
+                ]
+              }
+            ],
+            "lookFor": "The count-up method, which avoids borrowing entirely and is what a cook would actually do. Also, checking the answer's reasonableness: 5/12 cup is a bit under half a cup, which fits.",
+            "misconception": "Subtracting whole parts and fraction parts separately without borrowing (2-1 = 1, then 5/6 - 1/4 backwards). Have them estimate first: the answer must be small, under half a cup."
+          }
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "theme": "Multiplying Fractions — Area Models and 'Of'",
+      "bigIdea": "Multiplying by a fraction means taking a part of something. The area model shows why the numerators and denominators multiply.",
+      "instruction": {
+        "title": "The area model",
+        "minutes": 9,
+        "body": [
+          "Draw a square. Shade 3/4 of it vertically. Now shade 2/3 of it horizontally, crossing the first shading.",
+          "The double-shaded region is 2/3 OF 3/4. The square is now cut into 12 small rectangles (3 × 4) and 6 of them are double-shaded: 6/12 = 1/2.",
+          "That is where the rule comes from: 2×3 = 6 for the top, 3×4 = 12 for the bottom. The rule is a description of the picture, not a separate fact."
+        ],
+        "vocabulary": [
+          {
+            "term": "of",
+            "meaning": "in fraction problems, 'of' signals multiplication"
+          },
+          {
+            "term": "area model",
+            "meaning": "a rectangle split two ways to show a product"
+          },
+          {
+            "term": "scale factor",
+            "meaning": "the number you multiply by; less than 1 shrinks, more than 1 grows"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Simplify before multiplying",
+        "howToPractice": "For 3/8 × 4/9, cancel the 4 with the 8 and the 3 with the 9 first: (1/2) × (1/3) = 1/6. Practise spotting shared factors before any multiplying happens."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "g5-w03-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Compute 2/3 × 3/5 and draw the area model that explains your answer.",
+          "answerKey": {
+            "answer": "6/15 = 2/5.",
+            "approaches": [
+              {
+                "name": "Area model",
+                "steps": [
+                  "Draw a square; split it into 5 columns and shade 3 of them (3/5).",
+                  "Split the same square into 3 rows and shade 2 of them (2/3).",
+                  "The square now has 15 small pieces; the overlap covers 6 of them.",
+                  "6/15 simplifies to 2/5."
+                ]
+              },
+              {
+                "name": "Cancel first",
+                "steps": [
+                  "2/3 × 3/5: the 3 on top cancels the 3 on the bottom.",
+                  "Left with 2/1 × 1/5 = 2/5. Same answer, less simplifying."
+                ]
+              }
+            ],
+            "lookFor": "The overlap region correctly identified as the product. Many children shade correctly but then count the wrong region.",
+            "misconception": "Counting all shaded squares instead of only the double-shaded ones. The overlap is the answer."
+          }
+        },
+        {
+          "id": "g5-w03-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "A class has 40 students. 3/5 of them ride the bus, and 1/4 of the bus riders sit in the back. How many students sit in the back of the bus? What fraction of the WHOLE class is that?",
+          "answerKey": {
+            "answer": "6 students, which is 3/20 of the class.",
+            "approaches": [
+              {
+                "name": "Step by step with numbers",
+                "steps": [
+                  "Bus riders: 3/5 of 40 = 24.",
+                  "Back sitters: 1/4 of 24 = 6."
+                ]
+              },
+              {
+                "name": "Combine the fractions first",
+                "steps": [
+                  "1/4 of 3/5 is 1/4 × 3/5 = 3/20.",
+                  "3/20 of 40 = 6 ✓.",
+                  "So the back-sitters are 3/20 of the whole class."
+                ]
+              },
+              {
+                "name": "Bar model",
+                "steps": [
+                  "Draw the class as 5 units of 8 students each.",
+                  "Shade 3 units (24) as bus riders.",
+                  "Split those 24 into 4 groups of 6 and take one: 6."
+                ]
+              }
+            ],
+            "lookFor": "Recognizing that the 1/4 applies to the BUS RIDERS, not the class. Chaining fractions to different wholes is the core skill.",
+            "misconception": "Computing 1/4 of 40 = 10. Ask directly: 'One quarter OF WHAT?'"
+          }
+        },
+        {
+          "id": "g5-w03-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "True or false: 'Multiplying always makes a number bigger.' Give a specific example that settles it, and explain what actually decides whether the product grows or shrinks.",
+          "answerKey": {
+            "answer": "False. Example: 8 × 1/2 = 4, which is smaller than 8. What matters is whether the multiplier is above or below 1.",
+            "approaches": [
+              {
+                "name": "Counterexample plus rule",
+                "steps": [
+                  "8 × 1/2 = 4 < 8, so the claim fails.",
+                  "Multiplying by 1 leaves a number unchanged.",
+                  "Multiplying by more than 1 grows it; multiplying by less than 1 shrinks it; multiplying by exactly 1 keeps it.",
+                  "The threshold is 1, not zero."
+                ]
+              },
+              {
+                "name": "Meaning-based",
+                "steps": [
+                  "'× 1/2' means 'half of', and half of something is less than the whole thing.",
+                  "So the operation is not about making things bigger — it is about scaling."
+                ]
+              }
+            ],
+            "lookFor": "Naming 1 as the tipping point. Children who only produce a counterexample have half the insight; the rule is the other half.",
+            "misconception": "This belief comes from years of whole-number practice and is very sticky. Revisit it whenever a product surprises them."
+          }
+        },
+        {
+          "id": "g5-w03-p4",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "A rectangular garden is 3/4 of a metre wide and 2/3 of a metre long. Find its area two different ways. Is the area bigger or smaller than one square metre — and why does that make sense?",
+          "answerKey": {
+            "answer": "1/2 square metre. It is smaller than 1 m² because both sides are shorter than 1 m.",
+            "approaches": [
+              {
+                "name": "Multiply the sides",
+                "steps": [
+                  "Area = 3/4 × 2/3 = 6/12 = 1/2 m²."
+                ]
+              },
+              {
+                "name": "Grid count",
+                "steps": [
+                  "Draw a 1 m × 1 m square split into a 4 × 3 grid of twelfths.",
+                  "The garden covers 3 columns by 2 rows = 6 of the 12 cells.",
+                  "6/12 = 1/2 m² ✓."
+                ]
+              },
+              {
+                "name": "Sense check",
+                "steps": [
+                  "Each side is under a metre, so the rectangle fits inside the unit square.",
+                  "Its area therefore must be under 1 m². Half a square metre is plausible."
+                ]
+              }
+            ],
+            "lookFor": "The sense check. Predicting the size of an answer before computing it is the habit that separates understanding from procedure.",
+            "misconception": "Adding the sides (getting 17/12) — that is perimeter thinking, and it also gives an impossible area. The sense check catches it."
+          }
+        },
+        {
+          "id": "g5-w03-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Fill in the blank with a fraction so that the statement is true, and find at least two different answers: 20 × ___ is between 6 and 8. Explain how you searched instead of guessing randomly.",
+          "answerKey": {
+            "answer": "Any fraction strictly between 6/20 (= 3/10) and 8/20 (= 2/5). Examples: 1/3, 7/20, 0.35, 3/8.",
+            "approaches": [
+              {
+                "name": "Work backwards from the bounds",
+                "steps": [
+                  "If 20 × f = 6 then f = 6/20 = 3/10.",
+                  "If 20 × f = 8 then f = 8/20 = 2/5.",
+                  "So f must be strictly between 3/10 and 2/5.",
+                  "In twentieths that is between 6/20 and 8/20 — so 7/20 works. 1/3 also works, since 20/3 ≈ 6.67."
+                ]
+              },
+              {
+                "name": "Check a candidate",
+                "steps": [
+                  "Try 1/3: 20 × 1/3 = 20/3 = 6 2/3, which is between 6 and 8 ✓.",
+                  "Try 3/8: 20 × 3/8 = 60/8 = 7.5 ✓."
+                ]
+              }
+            ],
+            "lookFor": "Turning the inequality into an interval by working backwards, rather than trying fractions at random. Naming the boundaries first is the reasoning move.",
+            "misconception": "Picking a fraction, testing it, and stopping at one hit without knowing the range. Ask: 'What is the biggest fraction that still works?'"
+          }
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "theme": "Cumulative Review 1 — Fraction Reasoning Under Pressure",
+      "bigIdea": "Real problems do not announce which operation to use. Reading the situation and choosing the model is most of the work.",
+      "instruction": {
+        "title": "Review week — no new notation",
+        "minutes": 5,
+        "body": [
+          "Everything here comes from Weeks 1-3. Nothing new is introduced.",
+          "Before solving each problem, say out loud: what is the whole? What am I taking a part of?",
+          "Estimate the answer before computing. If your computed answer is far from your estimate, one of them is wrong — find out which."
+        ],
+        "vocabulary": []
+      },
+      "mentalMath": {
+        "strategy": "Mixed retrieval",
+        "howToPractice": "Alternate randomly between benchmark comparison, adding with unlike denominators, and taking a fraction of a quantity. Switching types is the point."
+      },
+      "cumulativeReview": true,
+      "problems": [
+        {
+          "id": "g5-w04-p1",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Sam spent 1/3 of his money on a book. Then he spent 1/4 of what was LEFT on a snack. He has $18 remaining. How much did he start with? Use a bar model.",
+          "answerKey": {
+            "answer": "$36.",
+            "approaches": [
+              {
+                "name": "Bar model",
+                "steps": [
+                  "Draw the whole as a bar of 3 units. The book takes 1 unit, leaving 2 units.",
+                  "Split each remaining unit in half so the leftover is 4 half-units.",
+                  "The snack is 1/4 of that leftover = 1 half-unit; 3 half-units remain.",
+                  "3 half-units = $18, so one half-unit = $6, and one full unit = $12.",
+                  "The whole bar is 3 units = $36."
+                ]
+              },
+              {
+                "name": "Work forwards to check",
+                "steps": [
+                  "Start with $36. Book: 1/3 of 36 = $12, leaving $24.",
+                  "Snack: 1/4 of 24 = $6, leaving $18 ✓."
+                ]
+              },
+              {
+                "name": "Fraction of the whole",
+                "steps": [
+                  "After the book, 2/3 remains. The snack eats 1/4 of that: 1/4 × 2/3 = 1/6 of the original.",
+                  "Remaining = 2/3 - 1/6 = 1/2 of the original.",
+                  "So $18 is half the start: $36."
+                ]
+              }
+            ],
+            "lookFor": "Correctly attaching the 1/4 to the REMAINDER, not the original. Compare deliberately with Week 2's book-reading problem, where the second fraction was of the whole.",
+            "misconception": "Treating the two fractions as both of the original ($36 → 1/3 + 1/4 = 7/12 spent). Always ask 'of what?' for the second fraction."
+          }
+        },
+        {
+          "id": "g5-w04-p2",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "A recipe for 6 people needs 3/4 cup of sugar and 2 1/2 cups of oats. You are cooking for 9 people. How much of each do you need? Solve two ways.",
+          "answerKey": {
+            "answer": "1 1/8 cups of sugar and 3 3/4 cups of oats.",
+            "approaches": [
+              {
+                "name": "Scale factor",
+                "steps": [
+                  "9 people ÷ 6 people = 3/2, so multiply everything by 3/2.",
+                  "Sugar: 3/4 × 3/2 = 9/8 = 1 1/8 cups.",
+                  "Oats: 5/2 × 3/2 = 15/4 = 3 3/4 cups."
+                ]
+              },
+              {
+                "name": "Unit rate (per person)",
+                "steps": [
+                  "Sugar per person: 3/4 ÷ 6 = 1/8 cup. For 9: 9/8 = 1 1/8 cups ✓.",
+                  "Oats per person: 5/2 ÷ 6 = 5/12 cup. For 9: 45/12 = 15/4 = 3 3/4 cups ✓."
+                ]
+              },
+              {
+                "name": "Half-again",
+                "steps": [
+                  "9 is 6 plus half of 6, so add half of each amount.",
+                  "Sugar: 3/4 + 3/8 = 9/8 ✓. Oats: 2 1/2 + 1 1/4 = 3 3/4 ✓."
+                ]
+              }
+            ],
+            "lookFor": "The half-again method shows real number sense. The unit-rate method previews Week 10 — point that out.",
+            "misconception": "Adding 3 to every quantity because the people went up by 3. Ask whether doubling the people would mean adding 6 cups of sugar."
+          }
+        },
+        {
+          "id": "g5-w04-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Without computing exact values, decide whether each answer is more or less than 1, and explain: (a) 5/8 + 2/5  (b) 7/9 × 4/5  (c) 3/4 + 1/3",
+          "answerKey": {
+            "answer": "(a) more than 1  (b) less than 1  (c) more than 1.",
+            "approaches": [
+              {
+                "name": "(a) Benchmarks",
+                "steps": [
+                  "5/8 is above 1/2 and 2/5 is below 1/2 — not decisive yet.",
+                  "Refine: 5/8 = 1/2 + 1/8, and 2/5 = 1/2 - 1/10.",
+                  "The gain of 1/8 beats the shortfall of 1/10, so the sum clears 1."
+                ]
+              },
+              {
+                "name": "(b) Scaling down",
+                "steps": [
+                  "4/5 is less than 1, so multiplying 7/9 by it SHRINKS 7/9.",
+                  "7/9 was already under 1, so the product is definitely under 1."
+                ]
+              },
+              {
+                "name": "(c) Both above a third",
+                "steps": [
+                  "3/4 is above 1/2 and 1/3 is above 1/4, so the sum clears 3/4 + 1/4 = 1.",
+                  "More than 1."
+                ]
+              }
+            ],
+            "lookFor": "Reasoning that never computes an exact value. Part (a) is genuinely hard — comparing the overshoot to the shortfall is the elegant move.",
+            "misconception": "Computing exactly and then answering. That is not wrong, but it dodges the skill being built. Ask them to try again without a common denominator."
+          }
+        },
+        {
+          "id": "g5-w04-p4",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Alex says: '1/2 of 3/4 is bigger than 3/4 of 1/2, because 3/4 is the bigger number and it should be the one doing the multiplying.' Is Alex right? Explain what is really going on.",
+          "answerKey": {
+            "answer": "No — both equal 3/8. Multiplication is commutative, so the order does not matter even though the two stories sound different.",
+            "approaches": [
+              {
+                "name": "Compute both",
+                "steps": [
+                  "1/2 × 3/4 = 3/8 and 3/4 × 1/2 = 3/8. Identical."
+                ]
+              },
+              {
+                "name": "One picture, two readings",
+                "steps": [
+                  "Draw a square; shade 3/4 of it vertically and 1/2 horizontally.",
+                  "The overlap is the answer either way — the same 3 cells out of 8.",
+                  "Which shading you call 'first' does not change the overlap."
+                ]
+              },
+              {
+                "name": "Stories differ, values do not",
+                "steps": [
+                  "'Half of a 3/4-cup serving' and 'three quarters of a half-cup serving' describe different actions.",
+                  "But both end up with the same amount: 3/8 cup."
+                ]
+              }
+            ],
+            "lookFor": "Distinguishing between the STORY (which really is different) and the VALUE (which is the same). That distinction matters again with ratios in Week 9.",
+            "misconception": "Assuming commutativity 'feels wrong' means it fails. The picture argument settles it better than the rule does."
+          }
+        },
+        {
+          "id": "g5-w04-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Write a word problem whose answer is exactly 3/8, where solving it requires at least two steps. Then solve your own problem and check the answer really is 3/8.",
+          "answerKey": {
+            "answer": "Open-ended. Example: 'A pizza is cut into 8 slices. Dad eats 1/4 of the pizza and Mia eats 3/8. What fraction is left?' → 1 - 2/8 - 3/8 = 3/8.",
+            "approaches": [
+              {
+                "name": "Design backwards",
+                "steps": [
+                  "Start from the target 3/8.",
+                  "Build a two-step route to it: for instance 3/4 × 1/2 = 3/8, or 7/8 - 1/2 = 3/8.",
+                  "Wrap the arithmetic in a situation with a clear whole.",
+                  "Solve the finished problem forwards to confirm it lands on 3/8."
+                ]
+              }
+            ],
+            "lookFor": "A genuinely two-step problem (not a one-step problem with extra words) and a stated whole. Then check whether their solution actually works — self-verification is the point.",
+            "misconception": "Writing a problem that is unsolvable or has a different answer than intended. Debug it together rather than replacing it."
+          }
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "theme": "Dividing With Fractions — What Division Actually Asks",
+      "bigIdea": "Division answers two questions: 'how many groups of this size fit?' and 'if I share into this many groups, how big is each?' Dividing by a fraction is only strange until you know which question you are asking.",
+      "instruction": {
+        "title": "Two meanings, one operation",
+        "minutes": 9,
+        "body": [
+          "Measurement (how many fit): 3 ÷ 1/4 asks 'how many quarters fit inside 3?' Answer: 12. Dividing by a small number gives a big answer.",
+          "Sharing (how big is each): 1/2 ÷ 3 asks 'split half a pound among 3 people'. Answer: 1/6 pound each.",
+          "The invert-and-multiply rule works for both, but always name the question first — that is what tells you whether your answer should be bigger or smaller than what you started with."
+        ],
+        "vocabulary": [
+          {
+            "term": "reciprocal",
+            "meaning": "the fraction flipped over; 3/4 and 4/3 are reciprocals"
+          },
+          {
+            "term": "measurement division",
+            "meaning": "how many groups of a given size fit"
+          },
+          {
+            "term": "partitive division",
+            "meaning": "sharing into a given number of equal groups"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Estimate the direction first",
+        "howToPractice": "Before dividing, ask: will the answer be bigger or smaller than the starting number? Dividing by less than 1 makes it bigger; dividing by more than 1 makes it smaller."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "g5-w05-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Compute 3/4 ÷ 1/8. Then say in words what question this division is asking, and draw a picture that answers it.",
+          "answerKey": {
+            "answer": "6. It asks: how many eighths fit inside three quarters?",
+            "approaches": [
+              {
+                "name": "Picture it",
+                "steps": [
+                  "Draw a bar cut into eighths and shade 3/4 of it, which is 6 eighths.",
+                  "Count how many one-eighth pieces are shaded: 6."
+                ]
+              },
+              {
+                "name": "Invert and multiply",
+                "steps": [
+                  "3/4 ÷ 1/8 = 3/4 × 8/1 = 24/4 = 6 ✓."
+                ]
+              },
+              {
+                "name": "Common denominator division",
+                "steps": [
+                  "Rewrite as 6/8 ÷ 1/8.",
+                  "Now both are counted in eighths, so it is just 6 ÷ 1 = 6."
+                ]
+              }
+            ],
+            "lookFor": "Stating the question in words. A child who can say 'how many eighths fit in three quarters' will never be confused about why the answer got bigger.",
+            "misconception": "Expecting division to shrink the number. Ask before computing: 'Are eighths bigger or smaller than 3/4? So will a lot of them fit, or a few?'"
+          }
+        },
+        {
+          "id": "g5-w05-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "A ribbon is 7 1/2 feet long. You cut it into pieces that are each 3/4 of a foot. How many pieces do you get? Is anything left over? Show your reasoning.",
+          "answerKey": {
+            "answer": "10 pieces, with nothing left over.",
+            "approaches": [
+              {
+                "name": "Measurement division",
+                "steps": [
+                  "7 1/2 ÷ 3/4 = 15/2 × 4/3 = 60/6 = 10.",
+                  "Since the answer is a whole number, there is no remainder."
+                ]
+              },
+              {
+                "name": "Count in quarters",
+                "steps": [
+                  "7 1/2 feet is 30 quarter-feet.",
+                  "Each piece is 3 quarter-feet.",
+                  "30 ÷ 3 = 10 pieces ✓."
+                ]
+              },
+              {
+                "name": "Estimate to check",
+                "steps": [
+                  "3/4 is a bit less than 1 foot, so you should get a bit more than 7 pieces — around 10 is sensible."
+                ]
+              }
+            ],
+            "lookFor": "The counting-in-quarters method, which turns a fraction division into a whole-number division. That is the same trick as the common-denominator method, discovered independently.",
+            "misconception": "Multiplying 7 1/2 by 3/4 to get 5.625, which would mean the pieces are shorter than the ribbon total makes sense — the estimate catches this."
+          }
+        },
+        {
+          "id": "g5-w05-p3",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Compute 2/3 ÷ 4 two different ways, and explain in words what the problem is asking.",
+          "answerKey": {
+            "answer": "1/6. It asks: if 2/3 of something is shared equally among 4, how much does each get?",
+            "approaches": [
+              {
+                "name": "Share the picture",
+                "steps": [
+                  "Draw a bar; shade 2/3 of it.",
+                  "Split the shaded part into 4 equal pieces.",
+                  "Each piece is 2/12 = 1/6 of the whole bar."
+                ]
+              },
+              {
+                "name": "Multiply by the reciprocal",
+                "steps": [
+                  "2/3 ÷ 4 = 2/3 × 1/4 = 2/12 = 1/6 ✓."
+                ]
+              },
+              {
+                "name": "Sense check",
+                "steps": [
+                  "Dividing by 4 (more than 1) must SHRINK 2/3.",
+                  "1/6 is much smaller than 2/3 ✓."
+                ]
+              }
+            ],
+            "lookFor": "Recognizing this as sharing, in contrast to the previous ribbon problem which was 'how many fit'. Same operation, different question.",
+            "misconception": "Dividing only the numerator to get 0.5/3, or flipping the wrong number to get 8/3. The sense check (answer must be smaller) catches both."
+          }
+        },
+        {
+          "id": "g5-w05-p4",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Explain why 6 ÷ 1/2 = 12, even though 12 is bigger than 6. Then write a real-life story where this division happens.",
+          "answerKey": {
+            "answer": "Because the question is 'how many halves fit into 6?' and each whole holds 2 halves, so 6 wholes hold 12.",
+            "approaches": [
+              {
+                "name": "Count the halves",
+                "steps": [
+                  "Draw 6 whole circles and cut each in half.",
+                  "Count the half-pieces: 12."
+                ]
+              },
+              {
+                "name": "Why bigger is right",
+                "steps": [
+                  "When you divide by a number smaller than 1, you are asking how many tiny pieces fit — and lots of tiny pieces fit.",
+                  "So the answer must exceed the starting number."
+                ]
+              },
+              {
+                "name": "A story",
+                "steps": [
+                  "You have 6 cups of flour and each batch of cookies uses 1/2 cup. How many batches can you make? 12 batches."
+                ]
+              }
+            ],
+            "lookFor": "A story where the divisor is genuinely a size (half a cup per batch), not a number of groups. Writing a valid story is much harder than computing.",
+            "misconception": "Stories like '6 cookies shared between half a person' — nonsense that reveals the divisor's role is not understood. Redirect to 'how many portions fit'."
+          }
+        },
+        {
+          "id": "g5-w05-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Find a division problem using two fractions whose answer is exactly 3. Then find one whose answer is exactly 1/3. What is the relationship between the two problems you made?",
+          "answerKey": {
+            "answer": "Open-ended. Example: 3/4 ÷ 1/4 = 3 and 1/4 ÷ 3/4 = 1/3. The second is the first with the numbers swapped, and the answers are reciprocals.",
+            "approaches": [
+              {
+                "name": "Build from the meaning",
+                "steps": [
+                  "For an answer of 3, make the first fraction three times the second: 3/4 ÷ 1/4 = 3, or 6/5 ÷ 2/5 = 3."
+                ]
+              },
+              {
+                "name": "Swap to invert the answer",
+                "steps": [
+                  "Swapping the dividend and divisor flips the answer: if a ÷ b = 3, then b ÷ a = 1/3.",
+                  "Check: 1/4 ÷ 3/4 = 1/4 × 4/3 = 1/3 ✓."
+                ]
+              }
+            ],
+            "lookFor": "Discovering the swap rule and stating it generally. That generalization is pre-algebra thinking arriving early.",
+            "misconception": "Producing two unrelated problems and seeing no connection. Nudge: 'What if you used the same two fractions in the other order?'"
+          }
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "theme": "Decimals Are Fractions in Disguise",
+      "bigIdea": "A decimal is just a fraction whose denominator is a power of ten. Once you see that, comparing and converting stop being separate skills.",
+      "instruction": {
+        "title": "Place value to the right of the point",
+        "minutes": 10,
+        "body": [
+          "0.3 is 3/10. 0.35 is 35/100. 0.352 is 352/1000. Each step right cuts the piece size by ten.",
+          "0.3 and 0.30 are the same number: 3/10 = 30/100. Trailing zeros re-cut the pieces without changing the amount.",
+          "Multiplying by 10 shifts every digit one place to the LEFT (4.7 × 10 = 47); dividing by 10 shifts right (4.7 ÷ 10 = 0.47). The digits do not change — only their places."
+        ],
+        "vocabulary": [
+          {
+            "term": "tenths, hundredths, thousandths",
+            "meaning": "the place values right of the decimal point"
+          },
+          {
+            "term": "power of ten",
+            "meaning": "10, 100, 1000 and so on"
+          },
+          {
+            "term": "terminating decimal",
+            "meaning": "a decimal that ends, like 0.375"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Times and divide by powers of ten",
+        "howToPractice": "Rapid-fire: 3.2 × 100, 45 ÷ 10, 0.06 × 1000. Say the digit shift out loud rather than 'moving the decimal point'."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "g5-w06-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Write 0.35 as a fraction in lowest terms, and write 3/8 as a decimal. Show how you got each.",
+          "answerKey": {
+            "answer": "0.35 = 7/20. 3/8 = 0.375.",
+            "approaches": [
+              {
+                "name": "Decimal to fraction",
+                "steps": [
+                  "0.35 means 35 hundredths: 35/100.",
+                  "Divide top and bottom by 5: 7/20."
+                ]
+              },
+              {
+                "name": "Fraction to decimal by division",
+                "steps": [
+                  "3 ÷ 8 = 0.375."
+                ]
+              },
+              {
+                "name": "Fraction to decimal by equivalence",
+                "steps": [
+                  "Turn the denominator into a power of ten: 8 × 125 = 1000.",
+                  "3/8 = 375/1000 = 0.375 ✓."
+                ]
+              }
+            ],
+            "lookFor": "The equivalence method for 3/8 — it shows WHY the decimal is what it is, where long division just produces it.",
+            "misconception": "Reading 0.35 as 'thirty-five' and writing 35/10. Say the place name out loud: the last digit sits in the hundredths place."
+          }
+        },
+        {
+          "id": "g5-w06-p2",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Compute mentally: 4.2 × 100, 6.5 ÷ 10, and 0.07 × 1000. Explain what happens to the digits each time.",
+          "answerKey": {
+            "answer": "420, 0.65, and 70.",
+            "approaches": [
+              {
+                "name": "Digit shift",
+                "steps": [
+                  "× 100 moves every digit two places left: 4.2 → 420.",
+                  "÷ 10 moves every digit one place right: 6.5 → 0.65.",
+                  "× 1000 moves three places left: 0.07 → 70.",
+                  "The digits 4, 2, 6, 5, 7 never change — only which place they occupy."
+                ]
+              }
+            ],
+            "lookFor": "Describing it as digits moving, not the decimal point moving. It is the same computation, but 'digits move places' explains why the value changes and 'the point moves' does not.",
+            "misconception": "Appending zeros mechanically: 6.5 ÷ 10 = 6.50. Ask whether dividing by 10 should make the number bigger or smaller."
+          }
+        },
+        {
+          "id": "g5-w06-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Which is larger, 0.6 or 0.45? Many people say 0.45 because 45 is bigger than 6. Explain what is wrong with that thinking, using fractions.",
+          "answerKey": {
+            "answer": "0.6 is larger.",
+            "approaches": [
+              {
+                "name": "Rewrite with the same denominator",
+                "steps": [
+                  "0.6 = 6/10 = 60/100.",
+                  "0.45 = 45/100.",
+                  "60/100 > 45/100, so 0.6 is larger."
+                ]
+              },
+              {
+                "name": "Why the error happens",
+                "steps": [
+                  "Comparing 6 and 45 ignores the place values: the 6 counts TENTHS, but the 45 counts hundredths.",
+                  "You cannot compare counts until the units match — the same rule as adding unlike fractions in Week 2."
+                ]
+              },
+              {
+                "name": "Number line",
+                "steps": [
+                  "0.45 is just under halfway between 0 and 1; 0.6 is past halfway. So 0.6 is to the right."
+                ]
+              }
+            ],
+            "lookFor": "The link back to Week 2 — you can only compare counts of the same-size unit. Naming that connection means the idea has generalized.",
+            "misconception": "The 'longer decimal is bigger' rule. It works for whole numbers and fails for decimals; make the contrast explicit."
+          }
+        },
+        {
+          "id": "g5-w06-p4",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Is 0.8 × 40 more or less than 40? Answer without computing, then compute it two different ways.",
+          "answerKey": {
+            "answer": "Less than 40. The answer is 32.",
+            "approaches": [
+              {
+                "name": "Predict first",
+                "steps": [
+                  "0.8 is less than 1, so multiplying shrinks 40.",
+                  "The answer must be under 40 — and since 0.8 is close to 1, it should be a bit under."
+                ]
+              },
+              {
+                "name": "As a fraction",
+                "steps": [
+                  "0.8 = 4/5. 4/5 of 40 = 32."
+                ]
+              },
+              {
+                "name": "Compensation",
+                "steps": [
+                  "40 × 1 = 40. 0.8 is 0.2 less than 1, and 0.2 × 40 = 8.",
+                  "So 40 - 8 = 32 ✓."
+                ]
+              }
+            ],
+            "lookFor": "The compensation method — computing the easy product and adjusting. It is fast, mental, and reuses Week 3's insight about multipliers under 1.",
+            "misconception": "Getting 320 by ignoring the decimal. The prediction step makes that answer obviously impossible."
+          }
+        },
+        {
+          "id": "g5-w06-p5",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Put these in order from smallest to largest and explain your reasoning: 0.7, 3/5, 0.62, 2/3, 0.09.",
+          "answerKey": {
+            "answer": "0.09 < 3/5 (0.6) < 0.62 < 2/3 (0.667) < 0.7.",
+            "approaches": [
+              {
+                "name": "Convert everything to decimals",
+                "steps": [
+                  "3/5 = 0.6, 2/3 ≈ 0.667.",
+                  "Now compare 0.7, 0.6, 0.62, 0.667, 0.09 with matched place values (0.700, 0.600, 0.620, 0.667, 0.090).",
+                  "Order: 0.09, 0.6, 0.62, 0.667, 0.7."
+                ]
+              },
+              {
+                "name": "Reason without full conversion",
+                "steps": [
+                  "0.09 is well under 0.1 — clearly smallest.",
+                  "3/5 = 0.6 exactly, and 0.62 is just above it.",
+                  "2/3 is above 0.62 because 2/3 ≈ 0.667, and 0.7 is above that.",
+                  "Same ordering, less arithmetic."
+                ]
+              }
+            ],
+            "lookFor": "Padding decimals to equal lengths before comparing, which makes place-value comparison automatic. Also credit spotting 0.09 as the outlier immediately.",
+            "misconception": "Placing 0.09 in the middle because '9' is a big digit. Write it as 0.090 and compare to 0.600."
+          }
+        },
+        {
+          "id": "g5-w06-p6",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Some fractions become decimals that end (like 3/8 = 0.375) and some do not (like 1/3 = 0.333...). Test these: 1/2, 1/3, 1/4, 1/5, 1/6, 1/8, 1/9, 1/10, 1/12, 1/16, 1/20. What do the ones that END have in common? Make a rule and test it on 1/40.",
+          "answerKey": {
+            "answer": "Terminating: 1/2, 1/4, 1/5, 1/8, 1/10, 1/16, 1/20. Non-terminating: 1/3, 1/6, 1/9, 1/12. The rule: a fraction in lowest terms terminates exactly when its denominator's only prime factors are 2s and 5s. 1/40 = 1/(2×2×2×5) terminates: 0.025.",
+            "approaches": [
+              {
+                "name": "Sort, then look for the pattern",
+                "steps": [
+                  "Convert each and sort into two lists.",
+                  "Factor the terminating denominators: 2, 4=2², 5, 8=2³, 10=2×5, 16=2⁴, 20=2²×5 — only 2s and 5s.",
+                  "Factor the others: 3, 6=2×3, 9=3², 12=2²×3 — every one contains a 3."
+                ]
+              },
+              {
+                "name": "Why 2s and 5s",
+                "steps": [
+                  "A decimal that ends is a fraction over a power of ten.",
+                  "10 = 2 × 5, so powers of ten are made only of 2s and 5s.",
+                  "A denominator can be scaled up into a power of ten only if it contains nothing but 2s and 5s."
+                ]
+              },
+              {
+                "name": "Test the rule",
+                "steps": [
+                  "40 = 2³ × 5 — only 2s and 5s, so predict it terminates.",
+                  "1 ÷ 40 = 0.025 ✓. Rule holds."
+                ]
+              }
+            ],
+            "lookFor": "Forming a rule from data and then TESTING it on a new case. That is the scientific method inside a math problem — the highest-value work in this week.",
+            "misconception": "Guessing 'even denominators terminate' — 1/6 and 1/12 are even and do not. Having a counterexample kill a first rule is the best part of the exercise."
+          }
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "theme": "Decimal Operations by Reasoning, Not by Rules",
+      "bigIdea": "Estimate first, compute second, check the estimate. Every decimal rule you were taught is a shortcut for a place-value idea you can reconstruct.",
+      "instruction": {
+        "title": "Why you line up the point for adding but not for multiplying",
+        "minutes": 9,
+        "body": [
+          "Adding: 3.4 + 12.75. You line up the decimal points because you can only add tenths to tenths and hundredths to hundredths. The answer is 16.15.",
+          "Multiplying: 2.4 × 1.5. Here you are scaling, not combining like units, so no lining up. Multiply 24 × 15 = 360, then place the point: one decimal digit in each factor means two in the product — 3.60.",
+          "Dividing by a decimal: 4.5 ÷ 0.15. Scale BOTH numbers by 100 to get 450 ÷ 15 = 30. Scaling both by the same factor leaves the quotient untouched, exactly like equivalent fractions."
+        ],
+        "vocabulary": [
+          {
+            "term": "estimate",
+            "meaning": "a deliberately rough answer used to check a precise one"
+          },
+          {
+            "term": "significant place",
+            "meaning": "the decimal place that determines the size of your answer"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Estimate-then-check on every calculation",
+        "howToPractice": "Before any decimal computation, round to friendly numbers and predict. 2.4 × 1.5 is about 2 × 1.5 = 3, so 3.6 is plausible and 36 is not."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "g5-w07-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Compute 2.4 × 1.5. Explain how you know where the decimal point goes, without using the 'count the digits' rule as your only reason.",
+          "answerKey": {
+            "answer": "3.6.",
+            "approaches": [
+              {
+                "name": "Estimate first",
+                "steps": [
+                  "2.4 is about 2 and 1.5 is 1.5, so the answer is near 3.",
+                  "Compute 24 × 15 = 360.",
+                  "The only sensible placement near 3 is 3.60 — 36 or 0.36 are far off."
+                ]
+              },
+              {
+                "name": "Fraction reasoning",
+                "steps": [
+                  "2.4 = 24/10 and 1.5 = 15/10.",
+                  "Product = (24 × 15)/(10 × 10) = 360/100 = 3.6.",
+                  "The two tens in the denominators are exactly why there are two decimal places."
+                ]
+              }
+            ],
+            "lookFor": "Deriving the digit-counting rule from the fraction form. Once a child sees the denominators multiply, the rule stops being arbitrary.",
+            "misconception": "Lining up decimal points as if multiplying were adding. Ask what units are being combined — there aren't any; it is scaling."
+          }
+        },
+        {
+          "id": "g5-w07-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "A rectangular garden is 3.5 m by 2.4 m. You want to put a fence around it and grass inside it. Find both the length of fence needed and the area of grass. Which of these two numbers grows faster if you double BOTH side lengths? Explain.",
+          "answerKey": {
+            "answer": "Perimeter 11.8 m, area 8.4 m². Doubling both sides doubles the perimeter (to 23.6 m) but quadruples the area (to 33.6 m²).",
+            "approaches": [
+              {
+                "name": "Compute both",
+                "steps": [
+                  "Perimeter = 2 × (3.5 + 2.4) = 2 × 5.9 = 11.8 m.",
+                  "Area = 3.5 × 2.4 = 8.4 m²."
+                ]
+              },
+              {
+                "name": "Doubled garden",
+                "steps": [
+                  "New sides: 7 m and 4.8 m.",
+                  "New perimeter = 2 × (7 + 4.8) = 23.6 m — exactly twice 11.8.",
+                  "New area = 7 × 4.8 = 33.6 m² — four times 8.4."
+                ]
+              },
+              {
+                "name": "Why area grows faster",
+                "steps": [
+                  "Perimeter adds lengths, so doubling each length doubles the sum.",
+                  "Area multiplies two lengths, so doubling both multiplies the product by 2 × 2 = 4."
+                ]
+              }
+            ],
+            "lookFor": "The structural explanation — area multiplies two doubled things, so it scales by 4. This is a genuine 7th-grade idea and it is reachable here.",
+            "misconception": "Assuming both double because 'everything doubled'. Have them verify with the actual numbers before explaining why."
+          }
+        },
+        {
+          "id": "g5-w07-p3",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Compute 12.6 ÷ 0.6 two different ways. Before you start, predict whether the answer will be more or less than 12.6, and say why.",
+          "answerKey": {
+            "answer": "21. It must be MORE than 12.6, because dividing by a number less than 1 asks how many small pieces fit, and many fit.",
+            "approaches": [
+              {
+                "name": "Scale both by 10",
+                "steps": [
+                  "12.6 ÷ 0.6 = 126 ÷ 6 = 21.",
+                  "Multiplying both numbers by 10 leaves the quotient unchanged, just like equivalent fractions."
+                ]
+              },
+              {
+                "name": "As a fraction",
+                "steps": [
+                  "12.6/0.6 = 126/6 = 21 ✓."
+                ]
+              },
+              {
+                "name": "Count the sixths of a unit",
+                "steps": [
+                  "0.6 is a bit over half, so roughly 2 fit per whole; 12.6 wholes should give somewhere near 21."
+                ]
+              }
+            ],
+            "lookFor": "The prediction stated BEFORE computing, and the justification that scaling both numbers preserves the quotient.",
+            "misconception": "Answering 2.1 or 210 from a misplaced point. The prediction ('must be more than 12.6') rules both out immediately."
+          }
+        },
+        {
+          "id": "g5-w07-p4",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Riley computes 0.3 × 0.4 = 1.2. Explain why that answer is impossible before you correct it, then give the right answer and say what Riley actually did.",
+          "answerKey": {
+            "answer": "The correct answer is 0.12. Riley's 1.2 is impossible because both factors are less than 1, so the product must be less than either of them.",
+            "approaches": [
+              {
+                "name": "Impossibility argument",
+                "steps": [
+                  "0.3 and 0.4 are both under 1.",
+                  "Multiplying by a number under 1 shrinks — so 0.3 × 0.4 must be less than 0.3.",
+                  "1.2 is bigger than both factors, so it cannot be right."
+                ]
+              },
+              {
+                "name": "What Riley did",
+                "steps": [
+                  "Riley computed 3 × 4 = 12 and then placed only ONE decimal place instead of two.",
+                  "Correctly: 3/10 × 4/10 = 12/100 = 0.12."
+                ]
+              },
+              {
+                "name": "Picture",
+                "steps": [
+                  "Take 3/10 of a square, then 4/10 of that strip.",
+                  "The overlap is 12 tiny cells out of 100: 0.12."
+                ]
+              }
+            ],
+            "lookFor": "Rejecting the answer on size grounds before touching the arithmetic. That reflex catches most decimal errors in real life.",
+            "misconception": "Riley's error is very common because 3 × 4 = 12 feels finished. Emphasize that the digits and the placement are two separate decisions."
+          }
+        },
+        {
+          "id": "g5-w07-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "You have $20. Notebooks cost $2.35 each and pens cost $1.40 each. You want at least 3 notebooks and at least 4 pens. Find two different combinations you can afford, and then find the combination that spends the MOST without going over. Show how you searched.",
+          "answerKey": {
+            "answer": "Many valid combinations. 3 notebooks + 4 pens = $7.05 + $5.60 = $12.65. The maximum-spend combination within the constraints is 3 notebooks + 9 pens = $7.05 + $12.60 = $19.65 (only $0.35 left). Also strong: 5 notebooks + 6 pens = $11.75 + $8.40 = $20.15 — over budget, so rejected.",
+            "approaches": [
+              {
+                "name": "Start at the minimum, then add",
+                "steps": [
+                  "Minimum order: 3 notebooks ($7.05) and 4 pens ($5.60) = $12.65. Money left: $7.35.",
+                  "Each extra pen costs $1.40: five more pens is $7.00, which fits ($19.65). A sixth extra pen would need $8.40 — too much.",
+                  "So 3 notebooks + 9 pens = $19.65, leaving $0.35."
+                ]
+              },
+              {
+                "name": "Try more notebooks",
+                "steps": [
+                  "4 notebooks ($9.40) + 4 pens ($5.60) = $15.00, leaving $5.00 — that buys 3 more pens ($4.20) for $19.20, leaving $0.80.",
+                  "5 notebooks ($11.75) + 5 pens ($7.00) = $18.75, leaving $1.25 — not enough for another pen.",
+                  "Comparing the leftovers, the 3-notebook plan wastes the least."
+                ]
+              },
+              {
+                "name": "Estimate to bound the search",
+                "steps": [
+                  "Round: notebooks about $2.40, pens about $1.40.",
+                  "$20 buys at most 8 notebooks or at most 14 pens, so the search space is small — no need to try everything."
+                ]
+              }
+            ],
+            "lookFor": "A SEARCH STRATEGY — starting from the minimum and adding the cheapest item, or bounding the options by estimating first. Random trial-and-error gets an answer but misses the skill.",
+            "misconception": "Forgetting the minimum constraints, or stopping at the first affordable combination. Ask: 'How do you know you cannot do better?'"
+          }
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "theme": "Cumulative Review 2 — Fractions and Decimals Together",
+      "bigIdea": "Fractions, decimals, and percentages are three notations for the same kind of number. Fluent problem-solvers convert to whichever form makes the reasoning easiest.",
+      "instruction": {
+        "title": "Review week — choose your representation",
+        "minutes": 5,
+        "body": [
+          "Nothing new this week. Everything comes from Weeks 1-7.",
+          "For each problem, decide first whether fractions or decimals will be easier, and say why you chose.",
+          "Estimate before every computation. If your answer is far from the estimate, find the error rather than trusting the arithmetic."
+        ],
+        "vocabulary": []
+      },
+      "mentalMath": {
+        "strategy": "Mixed retrieval across notations",
+        "howToPractice": "Rapid conversions in both directions: 3/4, 0.6, 7/8, 0.25, 2/5. Then benchmark comparisons mixing forms: which is bigger, 5/8 or 0.6?"
+      },
+      "cumulativeReview": true,
+      "problems": [
+        {
+          "id": "g5-w08-p1",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Order from smallest to largest and explain each placement: 5/8, 0.67, 2/3, 0.6, 7/10.",
+          "answerKey": {
+            "answer": "0.6 < 5/8 < 2/3 < 0.67 < 7/10.",
+            "approaches": [
+              {
+                "name": "Convert to decimals with equal places",
+                "steps": [
+                  "5/8 = 0.625, 2/3 ≈ 0.667, 7/10 = 0.700, and 0.6 = 0.600.",
+                  "Sort: 0.600, 0.625, 0.667, 0.670, 0.700.",
+                  "So 0.6 < 5/8 < 2/3 < 0.67 < 7/10."
+                ]
+              },
+              {
+                "name": "Reason near the crowd",
+                "steps": [
+                  "Four of these sit between 0.6 and 0.7, so precision matters.",
+                  "2/3 ≈ 0.6667 and 0.67 = 0.6700 — very close, but 0.67 is larger by 0.0033.",
+                  "Rounding 2/3 to 0.67 would wrongly make them equal, so keep more digits when values are close."
+                ]
+              }
+            ],
+            "lookFor": "Noticing that 2/3 and 0.67 are close enough that sloppy rounding loses the comparison. Knowing when precision matters is a real skill.",
+            "misconception": "Rounding 2/3 to 0.67 and declaring a tie. Ask for a third decimal place."
+          }
+        },
+        {
+          "id": "g5-w08-p2",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "A jacket costs $48. It is marked down to 3/4 of its price. Then $5 is taken off at the register. What do you pay? Solve two ways, and explain whether taking the $5 off FIRST and then the 3/4 markdown would cost more or less.",
+          "answerKey": {
+            "answer": "You pay $31. Doing the $5 first would cost $32.25 — more expensive for the shopper.",
+            "approaches": [
+              {
+                "name": "Markdown first (as stated)",
+                "steps": [
+                  "3/4 of 48 = $36.",
+                  "36 - 5 = $31."
+                ]
+              },
+              {
+                "name": "Decimal version",
+                "steps": [
+                  "0.75 × 48 = 36; 36 - 5 = $31 ✓."
+                ]
+              },
+              {
+                "name": "Other order",
+                "steps": [
+                  "48 - 5 = $43. Then 3/4 of 43 = $32.25.",
+                  "That is $1.25 more, because taking the $5 off first means the 3/4 markdown also shrinks your $5 discount — you effectively only keep 3/4 of it."
+                ]
+              }
+            ],
+            "lookFor": "The explanation of WHY order matters: the multiplicative discount scales the fixed discount too. That is a genuinely subtle idea and worth the whole problem.",
+            "misconception": "Assuming order never matters because 'it's the same numbers'. Compare with Week 4's commutativity problem, where order genuinely did not matter — the difference is mixing operations."
+          }
+        },
+        {
+          "id": "g5-w08-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "A runner runs 2.5 km on Monday. On Tuesday she runs 4/5 as far as Monday. On Wednesday she runs 1.5 times her Tuesday distance. How far did she run in total? Estimate first, then compute.",
+          "answerKey": {
+            "answer": "7.5 km total: 2.5 + 2.0 + 3.0.",
+            "approaches": [
+              {
+                "name": "Estimate",
+                "steps": [
+                  "Tuesday is a bit less than Monday (about 2), Wednesday is half again more than Tuesday (about 3).",
+                  "Total should be near 2.5 + 2 + 3 = 7.5 km."
+                ]
+              },
+              {
+                "name": "Compute step by step",
+                "steps": [
+                  "Tuesday: 4/5 × 2.5 = 2.0 km.",
+                  "Wednesday: 1.5 × 2.0 = 3.0 km.",
+                  "Total: 2.5 + 2.0 + 3.0 = 7.5 km ✓ — matches the estimate."
+                ]
+              },
+              {
+                "name": "Combine the scale factors",
+                "steps": [
+                  "Wednesday = 1.5 × 4/5 × Monday = 6/5 × 2.5 = 3.0 km, the same result reached in one step."
+                ]
+              }
+            ],
+            "lookFor": "Tracking WHICH day each multiplier refers to. Chained scaling with shifting reference points is exactly what trips students up in 7th grade.",
+            "misconception": "Applying Wednesday's 1.5 to Monday instead of Tuesday. Have the child annotate each multiplier with 'of what day'."
+          }
+        },
+        {
+          "id": "g5-w08-p4",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Find and explain the error: 'To compute 0.25 × 16, I know 0.25 is 1/4, and 16 ÷ 4 = 4, so the answer is 4. To compute 0.25 ÷ 16, that's the same thing backwards, so it's also 4.'",
+          "answerKey": {
+            "answer": "The first part is right: 0.25 × 16 = 4. The second is wrong: 0.25 ÷ 16 = 0.015625, a very small number.",
+            "approaches": [
+              {
+                "name": "Predict the size",
+                "steps": [
+                  "0.25 ÷ 16 asks how much each gets when 0.25 is shared 16 ways.",
+                  "Sharing a quarter among 16 people gives each a tiny amount — nowhere near 4."
+                ]
+              },
+              {
+                "name": "Compute it",
+                "steps": [
+                  "0.25 ÷ 16 = 1/4 ÷ 16 = 1/64 = 0.015625."
+                ]
+              },
+              {
+                "name": "Why the reasoning failed",
+                "steps": [
+                  "Multiplication is commutative, so the FACTORS can swap.",
+                  "Division is not, so swapping the roles of 0.25 and 16 gives a completely different question — as with 8 - 5 versus 5 - 8."
+                ]
+              }
+            ],
+            "lookFor": "Naming the false assumption: that division behaves like multiplication under swapping. This is the same idea the kindergartener meets with 8 - 5 versus 5 - 8.",
+            "misconception": "'Backwards' is doing a lot of hidden work in the claim. Ask precisely what 'the same thing backwards' is supposed to mean."
+          }
+        },
+        {
+          "id": "g5-w08-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Design a word problem that requires BOTH a fraction step and a decimal step, and whose answer is a whole number. Solve it, then explain why you chose each notation where you did.",
+          "answerKey": {
+            "answer": "Open-ended. Example: 'A tank holds 3/5 of its 40-litre capacity. You pour in 5.5 more litres, then use 1.5 litres. How much is in the tank?' → 24 + 5.5 - 1.5 = 28 litres.",
+            "approaches": [
+              {
+                "name": "Design backwards from a whole-number answer",
+                "steps": [
+                  "Pick the target: 28.",
+                  "Choose a fraction step with a clean result: 3/5 of 40 = 24.",
+                  "Add decimal steps that also land whole: +5.5 - 1.5 = +4.",
+                  "Verify forwards: 24 + 5.5 - 1.5 = 28 ✓."
+                ]
+              },
+              {
+                "name": "Justify the notation choice",
+                "steps": [
+                  "Fractions are easier for 'a part of a quantity' when the denominator divides the quantity cleanly.",
+                  "Decimals are easier for money and measurements, and for adding to a running total."
+                ]
+              }
+            ],
+            "lookFor": "The justification of notation choice. Knowing which form makes a computation easy — rather than converting reflexively — is the fluency this week is testing.",
+            "misconception": "A problem where the fraction and decimal steps are unrelated. Push for one running quantity threaded through both steps."
+          }
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "theme": "Ratios — Comparing by Multiplication, Not Subtraction",
+      "bigIdea": "A ratio says how many times as big one thing is compared to another. Equivalent ratios come from scaling both quantities by the same factor — never from adding to both.",
+      "instruction": {
+        "title": "Reading and writing ratios",
+        "minutes": 10,
+        "body": [
+          "If a paint mix has 3 parts blue to 2 parts yellow, write it 3:2. That is a PART-TO-PART ratio.",
+          "The same mix is 3/5 blue and 2/5 yellow of the total — those are PART-TO-WHOLE fractions. Mixing up the two is the single most common ratio error.",
+          "Equivalent ratios: 3:2 = 6:4 = 15:10, because both parts were multiplied by the same number. 3:2 is NOT the same as 4:3 — adding 1 to each changes the relationship."
+        ],
+        "vocabulary": [
+          {
+            "term": "ratio",
+            "meaning": "a multiplicative comparison of two quantities"
+          },
+          {
+            "term": "part-to-part",
+            "meaning": "comparing one group to another group"
+          },
+          {
+            "term": "part-to-whole",
+            "meaning": "comparing one group to the total"
+          },
+          {
+            "term": "ratio table",
+            "meaning": "a table of equivalent ratios used to scale up or down"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Scale to a friendly total",
+        "howToPractice": "Given 3:2, ask for the version whose total is 10 (6:4), 25 (15:10), 100 (60:40). Practise finding the multiplier by dividing the target total by the sum of the parts."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "g5-w09-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "A fruit bowl has 8 apples and 12 oranges. Write the ratio of apples to oranges in simplest form. What fraction of the fruit is apples? Explain why those two answers are different numbers.",
+          "answerKey": {
+            "answer": "Ratio of apples to oranges is 2:3. Apples are 8/20 = 2/5 of the fruit.",
+            "approaches": [
+              {
+                "name": "Simplify the ratio",
+                "steps": [
+                  "8:12, divide both by 4 → 2:3.",
+                  "That compares apples to ORANGES."
+                ]
+              },
+              {
+                "name": "Part-to-whole fraction",
+                "steps": [
+                  "Total fruit is 8 + 12 = 20.",
+                  "Apples are 8/20 = 2/5 of the total.",
+                  "The denominators differ because one compares to the oranges and the other to everything."
+                ]
+              }
+            ],
+            "lookFor": "Explaining that 2:3 and 2/5 describe the same bowl with different reference amounts. If the child cannot say what each number is compared to, the distinction has not landed.",
+            "misconception": "Writing the ratio as 2/3 and calling it 'the fraction of apples'. Ask: 'two-thirds of WHAT?'"
+          }
+        },
+        {
+          "id": "g5-w09-p2",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Fill in this ratio table for a 3:2 blue-to-yellow paint mix, and say what you multiply by each time. Blue: 3, 6, __, __, 30. Yellow: 2, __, 8, 10, __.",
+          "answerKey": {
+            "answer": "Blue: 3, 6, 12, 15, 30. Yellow: 2, 4, 8, 10, 20.",
+            "approaches": [
+              {
+                "name": "Find each multiplier",
+                "steps": [
+                  "Column 2 is column 1 doubled (×2): 6 and 4.",
+                  "Yellow 8 is 2 × 4, so blue is 3 × 4 = 12.",
+                  "Yellow 10 is 2 × 5, so blue is 3 × 5 = 15.",
+                  "Blue 30 is 3 × 10, so yellow is 2 × 10 = 20."
+                ]
+              },
+              {
+                "name": "Check with the constant ratio",
+                "steps": [
+                  "Every column should satisfy blue ÷ yellow = 1.5: 12/8 = 1.5 ✓, 15/10 = 1.5 ✓, 30/20 = 1.5 ✓."
+                ]
+              }
+            ],
+            "lookFor": "Checking each column against the constant ratio 1.5. That check is the definition of proportionality and it carries straight into Week 10.",
+            "misconception": "Continuing the table by adding 3 and 2 each time. That happens to work for consecutive columns of THIS table but breaks whenever a column is skipped — point that out explicitly."
+          }
+        },
+        {
+          "id": "g5-w09-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "A school's ratio of boys to girls is 5:3. There are 16 more boys than girls. How many students are there in total? Use a bar model.",
+          "answerKey": {
+            "answer": "64 students — 40 boys and 24 girls.",
+            "approaches": [
+              {
+                "name": "Bar model with units",
+                "steps": [
+                  "Draw boys as 5 equal units and girls as 3 equal units.",
+                  "The difference is 5 - 3 = 2 units, and that difference equals 16 students.",
+                  "So 1 unit = 8 students.",
+                  "Boys = 5 × 8 = 40, girls = 3 × 8 = 24, total = 8 units = 64."
+                ]
+              },
+              {
+                "name": "Check the ratio",
+                "steps": [
+                  "40:24 divides by 8 to give 5:3 ✓, and 40 - 24 = 16 ✓."
+                ]
+              }
+            ],
+            "lookFor": "Recognizing that the given 16 maps onto the DIFFERENCE in units, not onto a total. Finding the value of one unit is the master key for every bar-model ratio problem.",
+            "misconception": "Setting 16 equal to one unit, or to the total. Ask: 'Sixteen more — more than what? Which part of your drawing is that?'"
+          }
+        },
+        {
+          "id": "g5-w09-p4",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Two juice mixes: Batch A is 2 cups juice to 3 cups water. Batch B is 3 cups juice to 4 cups water. Which tastes stronger? Now pour both batches into one jug — is the mixture stronger or weaker than each original? Explain.",
+          "answerKey": {
+            "answer": "Batch B is stronger. The combined mixture (5 juice : 7 water) is strictly between the two in strength — weaker than B, stronger than A.",
+            "approaches": [
+              {
+                "name": "Compare as part-to-whole",
+                "steps": [
+                  "A is 2/5 juice = 0.400 of the mix.",
+                  "B is 3/7 juice ≈ 0.429.",
+                  "0.429 > 0.400, so B is stronger."
+                ]
+              },
+              {
+                "name": "Combine and compare",
+                "steps": [
+                  "Together: 2 + 3 = 5 cups juice and 3 + 4 = 7 cups water, so 5 juice out of 12 total.",
+                  "5/12 ≈ 0.417.",
+                  "That sits between 0.400 and 0.429 — weaker than B, stronger than A."
+                ]
+              },
+              {
+                "name": "Why it lands between",
+                "steps": [
+                  "Mixing cannot produce something stronger than the strongest ingredient or weaker than the weakest.",
+                  "So the blend must fall between them — a useful check on any mixing answer."
+                ]
+              }
+            ],
+            "lookFor": "The 'must fall between' argument. It is a powerful sanity check and it explains exactly why adding tops and adding bottoms (which is what combining batches does) is NOT fraction addition.",
+            "misconception": "Comparing by subtraction — 'A has 1 more water than juice, B has 1 more water than juice, so they are the same'. Ratios compare by division, not subtraction. This is the central error of the whole week."
+          }
+        },
+        {
+          "id": "g5-w09-p5",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "A recipe uses flour and butter in the ratio 7:2. You have 500 g of flour and 150 g of butter. Which ingredient runs out first, and how much of the other is left over? Solve two ways.",
+          "answerKey": {
+            "answer": "Flour runs out first. Using all 500 g of flour would need 1000/7 ≈ 142.9 g of butter, leaving about 7.1 g of butter unused.",
+            "approaches": [
+              {
+                "name": "Scale from the flour",
+                "steps": [
+                  "500 g flour is 500/7 ≈ 71.43 units of the ratio.",
+                  "Butter needed = 2 × 71.43 ≈ 142.9 g.",
+                  "You have 150 g, which is enough — so flour is the limit, and about 7.1 g of butter is left."
+                ]
+              },
+              {
+                "name": "Scale from the butter",
+                "steps": [
+                  "150 g of butter is 75 units, which would need 7 × 75 = 525 g of flour.",
+                  "You only have 500 g, so you cannot use all the butter. Flour is the limiting ingredient ✓."
+                ]
+              },
+              {
+                "name": "Compare the ratios directly",
+                "steps": [
+                  "You hold flour:butter = 500:150 = 10:3 ≈ 3.33.",
+                  "The recipe wants 7:2 = 3.5.",
+                  "Your mix has proportionally LESS flour than the recipe needs, so flour runs out first."
+                ]
+              }
+            ],
+            "lookFor": "The third approach — comparing the ratio you have to the ratio you need — answers the question with no scaling at all. That is the most transferable method.",
+            "misconception": "Assuming the smaller quantity (butter, 150 g) must run out first. Amounts alone do not decide; the ratio does."
+          }
+        },
+        {
+          "id": "g5-w09-p6",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Ratios 3:2 and 6:4 are equivalent. Is 4:3 equivalent to 3:2? Test what happens when you ADD the same number to both parts of a ratio versus when you MULTIPLY both parts. What is the general rule, and why?",
+          "answerKey": {
+            "answer": "4:3 is NOT equivalent to 3:2. Multiplying both parts preserves a ratio; adding to both parts does not.",
+            "approaches": [
+              {
+                "name": "Test with division",
+                "steps": [
+                  "3:2 gives 3 ÷ 2 = 1.5.",
+                  "6:4 gives 6 ÷ 4 = 1.5 ✓ equivalent.",
+                  "4:3 gives 4 ÷ 3 ≈ 1.33 ✗ not equivalent."
+                ]
+              },
+              {
+                "name": "Watch adding drift toward 1:1",
+                "steps": [
+                  "Start 3:2 (1.5). Add 1 to each: 4:3 ≈ 1.33. Add 1 again: 5:4 = 1.25. Then 6:5 = 1.2.",
+                  "The value keeps sliding toward 1 — adding equally makes the two parts more nearly equal."
+                ]
+              },
+              {
+                "name": "Why multiplying works",
+                "steps": [
+                  "Multiplying both parts by k gives (3k) ÷ (2k); the k cancels, leaving 3 ÷ 2.",
+                  "Nothing cancels when you add: (3 + k) ÷ (2 + k) genuinely depends on k."
+                ]
+              }
+            ],
+            "lookFor": "The cancellation argument. Seeing that k cancels under multiplication but not under addition explains everything about equivalent ratios, and it is real algebra.",
+            "misconception": "This is the same additive-versus-multiplicative confusion as the juice problem, and it is the biggest single obstacle to proportional reasoning. Worth returning to repeatedly."
+          }
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "theme": "Unit Rates, Proportional Reasoning, and Percent",
+      "bigIdea": "A unit rate answers 'how much for exactly one?' Percent is just a rate per 100. Both let you compare situations that are not the same size.",
+      "instruction": {
+        "title": "Per one, and per hundred",
+        "minutes": 9,
+        "body": [
+          "Unit rate: 150 miles in 2.5 hours is 150 ÷ 2.5 = 60 miles per hour. Once you know the rate for ONE hour, any number of hours is a single multiplication.",
+          "Percent means per hundred: 25% = 25/100 = 1/4 = 0.25. Finding 25% of something is finding a quarter of it.",
+          "Useful percents to know by feel: 10% is divide by 10; 50% is half; 25% is half of half; 1% is divide by 100. Everything else is built from these."
+        ],
+        "vocabulary": [
+          {
+            "term": "unit rate",
+            "meaning": "the amount per exactly one unit"
+          },
+          {
+            "term": "percent",
+            "meaning": "per hundred"
+          },
+          {
+            "term": "proportional",
+            "meaning": "two quantities that always keep the same ratio"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Build percents from 10%, 5%, and 1%",
+        "howToPractice": "For 15% of 60: 10% is 6, 5% is half of that (3), so 15% is 9. Practise splitting any percent into friendly pieces."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "g5-w10-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "A car travels 150 miles in 2.5 hours at a steady speed. What is the unit rate? How far does it go in 4 hours? How long to travel 210 miles?",
+          "answerKey": {
+            "answer": "60 miles per hour; 240 miles in 4 hours; 3.5 hours for 210 miles.",
+            "approaches": [
+              {
+                "name": "Find the rate, then scale",
+                "steps": [
+                  "150 ÷ 2.5 = 60 miles per hour.",
+                  "4 hours: 60 × 4 = 240 miles.",
+                  "210 miles: 210 ÷ 60 = 3.5 hours."
+                ]
+              },
+              {
+                "name": "Scale without the unit rate",
+                "steps": [
+                  "4 hours is 1.6 times 2.5 hours, so distance is 150 × 1.6 = 240 ✓.",
+                  "210 is 1.4 times 150, so time is 2.5 × 1.4 = 3.5 ✓."
+                ]
+              }
+            ],
+            "lookFor": "Using the unit rate in both directions — multiplying to find distance and dividing to find time.",
+            "misconception": "Dividing the wrong way (2.5 ÷ 150). Ask: 'Should a car cover more or less than 1 mile in an hour?' The rate must be large."
+          }
+        },
+        {
+          "id": "g5-w10-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Which is the better buy: 12 ounces of cereal for $3.60, or 20 ounces for $5.60? Show your reasoning, and say how much you save per ounce.",
+          "answerKey": {
+            "answer": "The 20-ounce box: $0.28 per ounce versus $0.30 per ounce — a saving of $0.02 per ounce.",
+            "approaches": [
+              {
+                "name": "Price per ounce",
+                "steps": [
+                  "3.60 ÷ 12 = $0.30 per ounce.",
+                  "5.60 ÷ 20 = $0.28 per ounce.",
+                  "Lower price per ounce wins: the 20-ounce box, by 2 cents an ounce."
+                ]
+              },
+              {
+                "name": "Ounces per dollar",
+                "steps": [
+                  "12 ÷ 3.60 ≈ 3.33 ounces per dollar.",
+                  "20 ÷ 5.60 ≈ 3.57 ounces per dollar.",
+                  "More cereal per dollar wins — same conclusion, opposite rate."
+                ]
+              },
+              {
+                "name": "Scale to a common size",
+                "steps": [
+                  "Five 12-ounce boxes give 60 oz for $18.00.",
+                  "Three 20-ounce boxes give 60 oz for $16.80.",
+                  "Same amount of cereal, $1.20 cheaper."
+                ]
+              }
+            ],
+            "lookFor": "Knowing which direction of the rate means 'better'. With price per ounce, lower is better; with ounces per dollar, higher is better. Reversing that is the classic slip.",
+            "misconception": "Comparing total prices ('$3.60 is cheaper') without accounting for size. Ask what you are actually buying."
+          }
+        },
+        {
+          "id": "g5-w10-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "A store offers two deals on a $48 jacket: (A) 30% off, or (B) 20% off followed by another 10% off the reduced price. Which is cheaper? Explain why they are not the same, even though 20 + 10 = 30.",
+          "answerKey": {
+            "answer": "Deal A is cheaper: $33.60 versus $34.56. Deal B costs $0.96 more.",
+            "approaches": [
+              {
+                "name": "Compute both",
+                "steps": [
+                  "A: 30% of 48 = $14.40 off, so you pay $33.60.",
+                  "B: 20% off gives 0.8 × 48 = $38.40. Then 10% off THAT gives 0.9 × 38.40 = $34.56."
+                ]
+              },
+              {
+                "name": "Why they differ",
+                "steps": [
+                  "In deal B, the second 10% is taken off the ALREADY REDUCED $38.40, not the original $48.",
+                  "10% of 38.40 is only $3.84, whereas 10% of 48 would have been $4.80.",
+                  "So the stacked discount is worth less than a straight 30%."
+                ]
+              },
+              {
+                "name": "As multipliers",
+                "steps": [
+                  "A keeps 70% of the price: 0.70 × 48.",
+                  "B keeps 0.8 × 0.9 = 0.72 of the price.",
+                  "Keeping 72% costs more than keeping 70%, so A is the better deal."
+                ]
+              }
+            ],
+            "lookFor": "The multiplier view (0.8 × 0.9 = 0.72). It settles the question in one line and is exactly how percentage change is handled in later grades.",
+            "misconception": "Believing percents add. They only add when taken off the SAME base. Ask: 'The second 10% — of what amount?'"
+          }
+        },
+        {
+          "id": "g5-w10-p4",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Find 15% of 60 two different ways without a calculator. Then use one of your methods to find 15% of 240 in your head, and explain the shortcut.",
+          "answerKey": {
+            "answer": "15% of 60 = 9. 15% of 240 = 36.",
+            "approaches": [
+              {
+                "name": "Build from 10% and 5%",
+                "steps": [
+                  "10% of 60 = 6.",
+                  "5% is half of 10%, so 3.",
+                  "15% = 6 + 3 = 9."
+                ]
+              },
+              {
+                "name": "As a decimal or fraction",
+                "steps": [
+                  "15% = 0.15, and 0.15 × 60 = 9 ✓.",
+                  "Or 15/100 = 3/20, and 3/20 of 60 = 9 ✓."
+                ]
+              },
+              {
+                "name": "Scale up to 240",
+                "steps": [
+                  "240 is 4 times 60, so 15% of 240 is 4 times 9 = 36.",
+                  "Or directly: 10% of 240 = 24, 5% = 12, total 36 ✓."
+                ]
+              }
+            ],
+            "lookFor": "Noticing that 240 is 4 × 60 and scaling the answer instead of recomputing. Reusing a result is a proportional-reasoning habit.",
+            "misconception": "Reaching for the decimal multiplication every time. The 10%-and-5% method is faster mentally and builds number sense."
+          }
+        },
+        {
+          "id": "g5-w10-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "On a map, 1 cm represents 25 km. Two towns are 8.4 cm apart on the map. How far apart are they really? If a third town is 150 km away from the first, how far apart are they on the map? Then: what would change if the scale were 1 cm : 50 km?",
+          "answerKey": {
+            "answer": "210 km apart. The third town is 6 cm away on the map. At 1 cm : 50 km, every map distance would be HALVED — the two towns would be 4.2 cm apart.",
+            "approaches": [
+              {
+                "name": "Use the scale as a rate",
+                "steps": [
+                  "8.4 cm × 25 km per cm = 210 km.",
+                  "150 km ÷ 25 km per cm = 6 cm."
+                ]
+              },
+              {
+                "name": "Reason about the new scale",
+                "steps": [
+                  "At 1 cm : 50 km, each centimetre covers twice as much ground.",
+                  "So the same real distance needs half as many centimetres: 210 ÷ 50 = 4.2 cm.",
+                  "Bigger scale number means a smaller, more zoomed-out map."
+                ]
+              },
+              {
+                "name": "Connection back to kindergarten",
+                "steps": [
+                  "This is the same inverse relationship as measuring with a bigger unit: a bigger unit gives a smaller count."
+                ]
+              }
+            ],
+            "lookFor": "Predicting the DIRECTION of the change before computing — a coarser scale means smaller map distances. Direction-first reasoning prevents unit errors.",
+            "misconception": "Doubling the map distance when the scale doubles. Ask: 'If each centimetre now covers more ground, do you need more centimetres or fewer?'"
+          }
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "theme": "Variables and Expressions — Describing Patterns With Letters",
+      "bigIdea": "A variable is a placeholder for a number that can change. An expression with a letter in it describes a whole family of situations at once.",
+      "instruction": {
+        "title": "What a letter actually means",
+        "minutes": 10,
+        "body": [
+          "In 3n + 1, the letter n stands for a number that can vary. 3n means 3 × n — the multiplication sign is left out to avoid confusion with the letter x.",
+          "To EVALUATE an expression, substitute a value: when n = 5, 3n + 1 = 3(5) + 1 = 16.",
+          "Two expressions are EQUIVALENT when they give the same value for every input. 2(x + 3) and 2x + 6 are equivalent; 2(x + 3) and 2x + 3 are not — test them with x = 1 and see."
+        ],
+        "vocabulary": [
+          {
+            "term": "variable",
+            "meaning": "a letter standing for a number that can change"
+          },
+          {
+            "term": "expression",
+            "meaning": "a mathematical phrase with no equals sign, like 3n + 1"
+          },
+          {
+            "term": "evaluate",
+            "meaning": "substitute a number for the variable and compute"
+          },
+          {
+            "term": "equivalent expressions",
+            "meaning": "different-looking expressions with the same value for every input"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Substitute and check",
+        "howToPractice": "Given an expression like 4n - 3, call out n values and have the child evaluate instantly: n = 2 → 5, n = 10 → 37, n = 0 → -3."
+      },
+      "cumulativeReview": false,
+      "problems": [
+        {
+          "id": "g5-w11-p1",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Evaluate 3n + 1 for n = 1, 2, 3, and 10. Then say in words what the expression 3n + 1 is doing to the input.",
+          "answerKey": {
+            "answer": "4, 7, 10, and 31. In words: triple the input, then add one.",
+            "approaches": [
+              {
+                "name": "Substitute each value",
+                "steps": [
+                  "n = 1: 3(1) + 1 = 4.",
+                  "n = 2: 3(2) + 1 = 7.",
+                  "n = 3: 3(3) + 1 = 10.",
+                  "n = 10: 3(10) + 1 = 31."
+                ]
+              },
+              {
+                "name": "Notice the step size",
+                "steps": [
+                  "The outputs go up by 3 each time n goes up by 1.",
+                  "That 3 is exactly the coefficient of n — the number multiplying the variable controls the step."
+                ]
+              }
+            ],
+            "lookFor": "Connecting the coefficient 3 to the constant step of 3 in the outputs. That is the seed of slope.",
+            "misconception": "Reading 3n as 'thirty-something' or as 3 + n. Say it out loud as 'three times n' every time until it is automatic."
+          }
+        },
+        {
+          "id": "g5-w11-p2",
+          "strand": "theory",
+          "format": "notation",
+          "prompt": "Are 2(x + 3) and 2x + 6 equivalent? Test x = 0, x = 1, and x = 5. Then draw a rectangle that explains why.",
+          "answerKey": {
+            "answer": "Yes, equivalent. Both give 6, 8, and 16 for those inputs.",
+            "approaches": [
+              {
+                "name": "Test values",
+                "steps": [
+                  "x = 0: 2(3) = 6 and 2(0) + 6 = 6 ✓.",
+                  "x = 1: 2(4) = 8 and 2 + 6 = 8 ✓.",
+                  "x = 5: 2(8) = 16 and 10 + 6 = 16 ✓."
+                ]
+              },
+              {
+                "name": "Area picture",
+                "steps": [
+                  "Draw a rectangle 2 tall and (x + 3) wide.",
+                  "Its total area is 2(x + 3).",
+                  "Now split it into a 2-by-x piece and a 2-by-3 piece: areas 2x and 6.",
+                  "Same rectangle, so 2(x + 3) = 2x + 6. That is the distributive property."
+                ]
+              },
+              {
+                "name": "Why testing is not proof",
+                "steps": [
+                  "Matching on three inputs is strong evidence but not certainty.",
+                  "The rectangle argument covers EVERY value of x at once — that is what makes it a proof."
+                ]
+              }
+            ],
+            "lookFor": "The distinction between testing values and proving with the area model. Knowing that examples support but do not prove is a major step in mathematical maturity.",
+            "misconception": "Writing 2(x + 3) = 2x + 3 by multiplying only the first term. The rectangle makes the missing piece impossible to overlook."
+          }
+        },
+        {
+          "id": "g5-w11-p3",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "A pattern of square tiles: Figure 1 has 4 tiles, Figure 2 has 7, Figure 3 has 10. How many tiles are in Figure 10? Write an expression for Figure n. Which figure has exactly 100 tiles?",
+          "answerKey": {
+            "answer": "Figure 10 has 31 tiles. The expression is 3n + 1. Figure 33 has exactly 100 tiles.",
+            "approaches": [
+              {
+                "name": "Find the step and the start",
+                "steps": [
+                  "Each figure adds 3 tiles, so the expression contains 3n.",
+                  "At n = 1, 3n gives 3 but the figure has 4 — so add 1: 3n + 1.",
+                  "Check n = 3: 3(3) + 1 = 10 ✓.",
+                  "Figure 10: 3(10) + 1 = 31."
+                ]
+              },
+              {
+                "name": "Work backwards for 100",
+                "steps": [
+                  "3n + 1 = 100, so 3n = 99, so n = 33.",
+                  "Check: 3(33) + 1 = 100 ✓."
+                ]
+              },
+              {
+                "name": "Why the +1 is there",
+                "steps": [
+                  "Think of the pattern as a starting single tile with a group of 3 added for each step.",
+                  "The 1 is the starter tile that never repeats; the 3n is the growth."
+                ]
+              }
+            ],
+            "lookFor": "Interpreting the +1 STRUCTURALLY — a fixed starting piece — rather than as a number that made the formula work. The structural reading is what makes the next pattern easy.",
+            "misconception": "Guessing 3n or n + 3 without testing. Insist on checking the formula against all three given figures."
+          }
+        },
+        {
+          "id": "g5-w11-p4",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Count the tiles in a border pattern around a 5-by-5 square (the outer ring only) in two different ways, and write an expression for each way. Then show the two expressions are equivalent for an n-by-n square.",
+          "answerKey": {
+            "answer": "16 border tiles for a 5-by-5 square. Two common expressions: 4(n - 1) and 4n - 4. Another valid one: 2n + 2(n - 2).",
+            "approaches": [
+              {
+                "name": "Four sides minus the corners",
+                "steps": [
+                  "Each side has n tiles, so 4n counts all four sides — but each of the 4 corners gets counted twice.",
+                  "Subtract the doubles: 4n - 4. For n = 5: 20 - 4 = 16 ✓."
+                ]
+              },
+              {
+                "name": "Four groups with no overlap",
+                "steps": [
+                  "Take each side but leave off one end tile so nothing is double-counted: n - 1 tiles per group.",
+                  "4(n - 1). For n = 5: 4 × 4 = 16 ✓."
+                ]
+              },
+              {
+                "name": "Top and bottom, then the sides",
+                "steps": [
+                  "Top and bottom rows: 2n tiles.",
+                  "The two side columns, excluding the corners already counted: 2(n - 2).",
+                  "Total 2n + 2(n - 2) = 2n + 2n - 4 = 4n - 4 ✓ — same expression."
+                ]
+              }
+            ],
+            "lookFor": "Different counting STRATEGIES yielding different-looking expressions that turn out to be equivalent. This is the single best exercise for understanding why algebraic manipulation is legitimate.",
+            "misconception": "Answering 4n = 20 and missing the double-counted corners. Have the child physically mark each corner tile as they count."
+          }
+        },
+        {
+          "id": "g5-w11-p5",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Ana has 3 more than twice as many stickers as Ben. Write an expression for Ana's stickers using b for Ben's. Then explain what is wrong with writing it as 2(b + 3), and describe a situation that WOULD be 2(b + 3).",
+          "answerKey": {
+            "answer": "Ana has 2b + 3. The expression 2(b + 3) means something different: it doubles a total that already includes the extra 3.",
+            "approaches": [
+              {
+                "name": "Translate in order",
+                "steps": [
+                  "'Twice as many as Ben' is 2b.",
+                  "'3 more than' that adds 3 afterwards: 2b + 3.",
+                  "Test with b = 10: Ana has 23. Check the sentence — twice 10 is 20, three more is 23 ✓."
+                ]
+              },
+              {
+                "name": "Show the two differ",
+                "steps": [
+                  "With b = 10: 2b + 3 = 23, but 2(b + 3) = 26.",
+                  "Different values, so different expressions — the parentheses genuinely change the meaning."
+                ]
+              },
+              {
+                "name": "A story for 2(b + 3)",
+                "steps": [
+                  "'Ben gets 3 more stickers, and then Ana gets twice as many as Ben now has.'",
+                  "The doubling happens AFTER the 3 is added, which is exactly what the parentheses say."
+                ]
+              }
+            ],
+            "lookFor": "Inventing a valid story for the wrong expression. Making a false statement true by changing the situation shows the child is reading notation as meaning, not as decoration.",
+            "misconception": "Translating word by word left to right ('3 more' → 3 + ...). Ask them to test with an actual number every time."
+          }
+        },
+        {
+          "id": "g5-w11-p6",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "A taxi charges $3 to start plus $2 per mile. Write an expression for the cost of m miles. What does each part of your expression mean in the real world? How much for 7 miles? If a ride cost $23, how far was it?",
+          "answerKey": {
+            "answer": "Cost = 2m + 3. The 3 is the fixed starting charge; the 2m is $2 for each of the m miles. Seven miles costs $17. A $23 ride was 10 miles.",
+            "approaches": [
+              {
+                "name": "Build the expression",
+                "steps": [
+                  "Fixed part that never changes: 3.",
+                  "Part that grows with distance: 2 per mile, so 2m.",
+                  "Total: 2m + 3."
+                ]
+              },
+              {
+                "name": "Evaluate for 7 miles",
+                "steps": [
+                  "2(7) + 3 = 14 + 3 = $17."
+                ]
+              },
+              {
+                "name": "Work backwards from $23",
+                "steps": [
+                  "2m + 3 = 23.",
+                  "Take off the fixed $3: the mileage part is $20.",
+                  "20 ÷ 2 = 10 miles. Check: 2(10) + 3 = 23 ✓."
+                ]
+              }
+            ],
+            "lookFor": "Explaining what the 3 and the 2 MEAN in the story, and undoing the operations in reverse order to work backwards. That reverse-order undoing is exactly equation solving, arrived at informally.",
+            "misconception": "Writing 3m + 2 by matching the numbers to the order they appear in the sentence. Ask: 'Which number changes when you ride farther?'"
+          }
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "theme": "Cumulative Review 3 — Equations, Geometry, and Everything Else",
+      "bigIdea": "Solving an equation is undoing operations in reverse order to uncover the unknown. Everything from this term shows up when problems stop telling you which tool to use.",
+      "instruction": {
+        "title": "Review week — solving by undoing",
+        "minutes": 6,
+        "body": [
+          "An equation says two things are equal. Solving it means finding the value of the variable that makes it true.",
+          "To solve 3x + 5 = 26: undo the +5 first (subtract 5 from BOTH sides, giving 3x = 21), then undo the ×3 (divide both sides by 3, giving x = 7).",
+          "Always substitute your answer back into the original equation. 3(7) + 5 = 26 ✓. Checking is not optional — it is how you know."
+        ],
+        "vocabulary": [
+          {
+            "term": "equation",
+            "meaning": "a statement that two expressions are equal"
+          },
+          {
+            "term": "solve",
+            "meaning": "find the value that makes the equation true"
+          },
+          {
+            "term": "inverse operation",
+            "meaning": "the operation that undoes another; subtraction undoes addition"
+          }
+        ]
+      },
+      "mentalMath": {
+        "strategy": "Everything, mixed",
+        "howToPractice": "Alternate unpredictably among benchmark fraction comparison, percent-of, unit rate, and evaluating an expression. Choosing the right strategy under uncertainty is the term's final skill."
+      },
+      "cumulativeReview": true,
+      "problems": [
+        {
+          "id": "g5-w12-p1",
+          "strand": "reasoning",
+          "format": "two-ways",
+          "prompt": "Solve 3x + 5 = 26 two ways: with a bar model, and by undoing operations. Then check your answer.",
+          "answerKey": {
+            "answer": "x = 7.",
+            "approaches": [
+              {
+                "name": "Bar model",
+                "steps": [
+                  "Draw a bar of total length 26, made of 3 equal boxes labelled x plus a piece of 5.",
+                  "Remove the 5: the three boxes together are 21.",
+                  "Each box is 21 ÷ 3 = 7."
+                ]
+              },
+              {
+                "name": "Undo in reverse order",
+                "steps": [
+                  "The expression does ×3 then +5, so undo in the opposite order.",
+                  "Subtract 5 from both sides: 3x = 21.",
+                  "Divide both sides by 3: x = 7."
+                ]
+              },
+              {
+                "name": "Check",
+                "steps": [
+                  "3(7) + 5 = 21 + 5 = 26 ✓."
+                ]
+              }
+            ],
+            "lookFor": "Undoing in REVERSE order and doing the same thing to both sides. If the child divides by 3 first, that also works (x + 5/3 = 26/3) but is messier — ask them why it is still legal.",
+            "misconception": "Subtracting 5 from only one side. The bar model makes the imbalance visible in a way symbol rules do not."
+          }
+        },
+        {
+          "id": "g5-w12-p2",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "A box is 4 cm by 2.5 cm by 3 cm. Find its volume. Then find two DIFFERENT sets of whole-number dimensions with the same volume, and explain how you searched for them.",
+          "answerKey": {
+            "answer": "Volume = 30 cm³. Other whole-number boxes with volume 30: 1 × 5 × 6, 2 × 3 × 5, 1 × 1 × 30, 1 × 2 × 15, 1 × 3 × 10.",
+            "approaches": [
+              {
+                "name": "Compute the volume",
+                "steps": [
+                  "4 × 2.5 = 10, and 10 × 3 = 30 cm³."
+                ]
+              },
+              {
+                "name": "Factor systematically",
+                "steps": [
+                  "30 = 2 × 3 × 5, so its prime factors are 2, 3 and 5.",
+                  "Split those three factors into three groups in every way: (2)(3)(5), (1)(5)(6), (1)(2)(15), (1)(3)(10), (1)(1)(30).",
+                  "Grouping the primes guarantees no possibility is missed."
+                ]
+              },
+              {
+                "name": "Sense check",
+                "steps": [
+                  "Multiply each set back out and confirm it gives 30."
+                ]
+              }
+            ],
+            "lookFor": "The systematic factoring search rather than guess-and-check. Also worth noticing: same volume, very different shapes — volume does not determine surface area.",
+            "misconception": "Adding the dimensions instead of multiplying. Ask what a 1 × 1 × 1 cube's volume is, then a 2 × 1 × 1."
+          }
+        },
+        {
+          "id": "g5-w12-p3",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "A class of 60 students has boys and girls in the ratio 3:2. 25% of the girls play soccer, and 1/3 of the boys play soccer. How many students play soccer? What fraction of the class is that?",
+          "answerKey": {
+            "answer": "18 students play soccer — 3/10 of the class.",
+            "approaches": [
+              {
+                "name": "Split by ratio, then apply each rate",
+                "steps": [
+                  "3 + 2 = 5 units, and 60 ÷ 5 = 12 students per unit.",
+                  "Boys: 3 × 12 = 36. Girls: 2 × 12 = 24.",
+                  "Girls playing: 25% of 24 = 6. Boys playing: 1/3 of 36 = 12.",
+                  "Total: 6 + 12 = 18."
+                ]
+              },
+              {
+                "name": "As a fraction of the class",
+                "steps": [
+                  "18 out of 60 = 18/60 = 3/10 = 30% of the class."
+                ]
+              },
+              {
+                "name": "Sense check",
+                "steps": [
+                  "Roughly a quarter of the girls and a third of the boys play, so the class total should land between 25% and 33%.",
+                  "30% sits between them ✓."
+                ]
+              }
+            ],
+            "lookFor": "Applying each percentage to the correct SUBGROUP, and the sense check that the overall rate lands between the two group rates — the same 'must fall between' argument as the juice problem in Week 9.",
+            "misconception": "Averaging 25% and 1/3 to get about 29% of 60. That happens to be close here but is wrong in principle — it ignores that the groups are different sizes. Show it fails if the split were 9:1."
+          }
+        },
+        {
+          "id": "g5-w12-p4",
+          "strand": "reasoning",
+          "format": "explain",
+          "prompt": "Find the error: 'To solve 2x + 6 = 20, I divided everything by 2 and got x + 6 = 10, so x = 4.' What went wrong, what is the right answer, and how could a check have caught it?",
+          "answerKey": {
+            "answer": "The correct answer is x = 7. The error was dividing only the 2x by 2 while leaving the 6 untouched.",
+            "approaches": [
+              {
+                "name": "Divide EVERY term",
+                "steps": [
+                  "Dividing both sides by 2 must divide every term: x + 3 = 10, so x = 7.",
+                  "The 6 had to become 3."
+                ]
+              },
+              {
+                "name": "Subtract first instead",
+                "steps": [
+                  "2x + 6 = 20 → 2x = 14 → x = 7 ✓. Same answer by a cleaner route."
+                ]
+              },
+              {
+                "name": "The check catches it",
+                "steps": [
+                  "Substitute x = 4 into the original: 2(4) + 6 = 14, not 20. So x = 4 fails.",
+                  "Substitute x = 7: 2(7) + 6 = 20 ✓."
+                ]
+              }
+            ],
+            "lookFor": "Explaining that an operation on 'both sides' applies to the WHOLE side, every term of it — the same distributive idea as Week 11's rectangle. And that the check is what makes the error findable without knowing the right answer in advance.",
+            "misconception": "Partial distribution is the most common early-algebra error and it will recur for years. Substituting back is the permanent defence."
+          }
+        },
+        {
+          "id": "g5-w12-p5",
+          "strand": "reasoning",
+          "format": "explore",
+          "prompt": "Design a multi-step problem that uses at least three of these: fractions, decimals, ratios, percent, an expression with a variable, and a geometry measurement. Write the full worked solution, including one wrong path someone might take and why it fails.",
+          "answerKey": {
+            "answer": "Open-ended. Example: 'A rectangular garden is 4.5 m by 2 m. Vegetables and flowers are planted in the ratio 5:4. 20% of the vegetable area is tomatoes. What area is tomatoes?' → Area = 9 m²; 9 ÷ 9 units = 1 m² per unit; vegetables = 5 m²; tomatoes = 20% of 5 = 1 m².",
+            "approaches": [
+              {
+                "name": "Design backwards from a clean answer",
+                "steps": [
+                  "Choose a tidy final answer, then build the chain of steps that reaches it.",
+                  "Pick numbers that divide cleanly at every stage so the arithmetic never obscures the reasoning.",
+                  "Solve it forwards to confirm."
+                ]
+              },
+              {
+                "name": "Include a plausible wrong path",
+                "steps": [
+                  "A likely error: taking 20% of the whole 9 m² garden instead of the 5 m² vegetable area, giving 1.8 m².",
+                  "It fails because the 20% is defined relative to the vegetable plot, not the garden — the same 'of what?' question as Week 3."
+                ]
+              }
+            ],
+            "lookFor": "The wrong-path analysis. Being able to predict how someone else would go astray requires understanding the structure, not just the procedure — it is the strongest evidence of mastery in this whole term.",
+            "misconception": "Writing a problem that is really three separate problems stapled together. Push for one situation where each step feeds the next."
+          }
+        }
+      ]
+    }
+  ]
+}
