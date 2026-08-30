@@ -338,3 +338,15 @@ code { background: var(--line); padding: 1px 5px; border-radius: 4px; font-size:
 @media (max-width: 380px) {
   .stat-row { grid-template-columns: repeat(2, 1fr); }
 }
+
+.backup-box {
+  width: 100%;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.75rem;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  resize: vertical;
+}
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
