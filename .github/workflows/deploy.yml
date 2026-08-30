@@ -26,9 +26,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # jsdom (used by the DOM tests) pulls in a version of undici that needs
+      # Node 22 — on Node 20 it fails to load with
+      # "webidl.util.markAsUncloneable is not a function".
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - run: npm ci

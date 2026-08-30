@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "MathTrack — a two-child, 12-week reasoning-first math curriculum tracker",
+  "description": "MathTrack \u2014 a two-child, 12-week reasoning-first math curriculum tracker",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
