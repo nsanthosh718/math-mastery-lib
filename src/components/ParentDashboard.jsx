@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { useApp } from '../state/AppContext.jsx';
+import { makeBackup, parseBackup, describeBackup, backupFilename } from '../lib/backup.js';
 import { BUILT_IN_RULES } from '../lib/rules.js';
 import { strandBalance } from '../data/curriculum/index.js';
 import { TRACK_LIST } from '../data/curriculum/index.js';
@@ -270,6 +271,8 @@ function SettingsTab({ state, views, dispatch }) {
         ))}
       </section>
 
+      <BackupSection />
+
       <section className="card">
         <h2>Curriculum balance</h2>
         {TRACK_LIST.map((track) => {
@@ -302,5 +305,111 @@ function Stat({ label, value }) {
       <span className="stat__value">{value}</span>
       <span className="stat__label">{label}</span>
     </div>
+  );
+}
+
+/**
+ * Progress lives in this browser's storage. A cleared cache or a new device
+ * loses it, so a parent can take a snapshot and put it back — which is also the
+ * only way to move progress between devices until there is a backend.
+ */
+function BackupSection() {
+  const { state, dispatch, today } = useApp();
+  const [status, setStatus] = useState(null);
+  const [pasted, setPasted] = useState('');
+  const fileInput = useRef(null);
+
+  const copy = async () => {
+    const text = makeBackup(state, today);
+    try {
+      await navigator.clipboard.writeText(text);
+      setStatus({ tone: 'ok', text: 'Backup copied. Paste it somewhere safe — a note, an email to yourself.' });
+    } catch {
+      setPasted(text);
+      setStatus({ tone: 'warn', text: 'Could not reach the clipboard. The backup is in the box below — copy it from there.' });
+    }
+  };
+
+  const download = () => {
+    const blob = new Blob([makeBackup(state, today)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = backupFilename(today);
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+    setStatus({ tone: 'ok', text: `Saved as ${backupFilename(today)}.` });
+  };
+
+  const restore = (text) => {
+    const result = parseBackup(text, today);
+    if (!result.ok) {
+      setStatus({ tone: 'alert', text: result.error });
+      return;
+    }
+    if (!window.confirm(`Replace all current progress with this backup?\n\n${describeBackup(result.state)}`)) {
+      return;
+    }
+    dispatch({ type: 'replace', state: result.state });
+    setPasted('');
+    setStatus({ tone: 'ok', text: 'Progress restored.' });
+  };
+
+  const restoreFromFile = (event) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => restore(String(reader.result));
+    reader.onerror = () => setStatus({ tone: 'alert', text: 'Could not read that file.' });
+    reader.readAsText(file);
+    event.target.value = '';
+  };
+
+  return (
+    <section className="card">
+      <h2>Back up progress</h2>
+      <p className="muted">
+        Progress is stored in this browser only. Clearing browsing data erases it, and it does not
+        follow you to another device — so take a backup now and then, especially before switching
+        devices.
+      </p>
+
+      <div className="row row--wrap">
+        <button className="btn btn--secondary" onClick={copy}>
+          Copy backup
+        </button>
+        <button className="btn btn--secondary" onClick={download}>
+          Download file
+        </button>
+        <button className="btn btn--ghost" onClick={() => fileInput.current?.click()}>
+          Restore from file
+        </button>
+      </div>
+      <input
+        ref={fileInput}
+        type="file"
+        accept="application/json,.json"
+        onChange={restoreFromFile}
+        hidden
+      />
+
+      {status && <p className={`notice notice--${status.tone}`}>{status.text}</p>}
+
+      <label className="field">
+        <span className="field__label">Or paste a backup here to restore it</span>
+        <textarea
+          className="backup-box"
+          rows="4"
+          value={pasted}
+          placeholder='{"app":"mathtrack", ...}'
+          onChange={(e) => setPasted(e.target.value)}
+        />
+      </label>
+      <button className="btn btn--ghost" disabled={!pasted.trim()} onClick={() => restore(pasted)}>
+        Restore from pasted text
+      </button>
+    </section>
   );
 }
